@@ -1,0 +1,110 @@
+{
+    "Closable": 1b,
+    "Main": "186545e6-a7c1-455a-b817-046cca198d0b",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так, теперь нужно найти телефон и позвонить курьеру"
+            },
+            "X": -455,
+            "Title": "Доставка",
+            "Y": 329,
+            "Sound": "",
+            "Id": "bf5cf5a0-cd81-439b-af0e-1cd95d53a6a2",
+            "Marker": "delivery"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "greece1",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -51,
+            "Title": "наличие квеста",
+            "Y": -341,
+            "Relations": [
+                "7dc538be-9ee8-48bf-85f8-980093e19c79"
+            ],
+            "Id": "186545e6-a7c1-455a-b817-046cca198d0b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне лень куда-либо идти, закажу доставку"
+            },
+            "X": -285,
+            "Title": "",
+            "Y": 85,
+            "Relations": [
+                "bf5cf5a0-cd81-439b-af0e-1cd95d53a6a2"
+            ],
+            "Id": "9faa24cb-708d-4372-9693-ea9a357897b4"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мда, еще вчера здесь был вкуснейший греческий салат. Надо бы решить, как и где я сегодня буду ужинать"
+            },
+            "X": -53,
+            "Title": "",
+            "Y": -164,
+            "Sound": "",
+            "Relations": [
+                "29a254ed-fec0-49c2-8d3f-811d695d141f",
+                "9faa24cb-708d-4372-9693-ea9a357897b4"
+            ],
+            "Id": "7dc538be-9ee8-48bf-85f8-980093e19c79",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Поем в ресторане, заодно позову с собой Марту"
+            },
+            "X": 211,
+            "Title": "",
+            "Y": 90,
+            "Relations": [
+                "a3b878c6-db09-4c59-8845-036fce91299a"
+            ],
+            "Id": "29a254ed-fec0-49c2-8d3f-811d695d141f"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Теперь нужно позвонить Марте и пригласить ее на ужин, думаю, она не будет против"
+            },
+            "X": 360,
+            "Title": "Ресторан",
+            "Y": 366,
+            "Sound": "",
+            "Id": "a3b878c6-db09-4c59-8845-036fce91299a",
+            "Marker": "rest"
+        }
+    ]
+}

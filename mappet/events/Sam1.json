@@ -1,0 +1,84 @@
+{
+    "Main": "ac315d83-505c-4297-a549-d3bfcdb4ed88",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0414\\u0430\\u0442\\u0430:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u043d\\u0430 \\u0441\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0438\\u0439 \\u0434\\u0435\\u043d\\u044c\"}]",
+            "X": 32,
+            "Title": "",
+            "Y": 466,
+            "Id": "9be14ac8-31dc-4ae3-aceb-b75f3358bd2a"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -252,
+            "Title": "",
+            "Y": -77,
+            "Id": "317cd683-cd57-4ef9-9430-14cc038ac4d7"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -253,
+            "Title": "",
+            "Y": 477,
+            "Id": "8cd102f5-8065-4907-b316-8d8773873102"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u0436:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u0421\\u044d\\u043c \\u041a\\u0438\\u0445\\u043e\\u0442\"}]",
+            "X": 34,
+            "Title": "",
+            "Y": -170,
+            "Relations": [
+                "dd563ae9-7e17-45c5-b6a1-552d4d3458db",
+                "317cd683-cd57-4ef9-9430-14cc038ac4d7"
+            ],
+            "Id": "ac315d83-505c-4297-a549-d3bfcdb4ed88"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -253,
+            "Title": "",
+            "Y": 186,
+            "Id": "74ac1e37-848e-45f2-becd-27c1baba9895"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 34,
+            "Title": "",
+            "Y": 284,
+            "Relations": [
+                "9be14ac8-31dc-4ae3-aceb-b75f3358bd2a",
+                "8cd102f5-8065-4907-b316-8d8773873102"
+            ],
+            "Id": "4264b67e-b32e-48d7-8312-0b510c7b6b1e"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 34,
+            "Title": "",
+            "Y": -24,
+            "Relations": [
+                "5948fad8-344c-4296-b34a-189565723af9",
+                "74ac1e37-848e-45f2-becd-27c1baba9895"
+            ],
+            "Id": "dd563ae9-7e17-45c5-b6a1-552d4d3458db"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041c\\u0435\\u0441\\u0442\\u043e\\u043f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u041a\\u0430\\u043d\\u0430\\u0434\\u0430 - \\u0425\\u043e\\u0442\\u0441\\u0432\\u0438\\u043b\\u043b\"}]",
+            "X": 34,
+            "Title": "",
+            "Y": 118,
+            "Relations": [
+                "4264b67e-b32e-48d7-8312-0b510c7b6b1e"
+            ],
+            "Id": "5948fad8-344c-4296-b34a-189565723af9"
+        }
+    ]
+}

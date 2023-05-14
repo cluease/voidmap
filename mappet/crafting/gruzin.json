@@ -1,0 +1,62 @@
+{
+    "Title": "Сыры",
+    "Recipes": [
+        {
+            "Input": [
+                {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "variedcommodities:money",
+                    "Count": 3b,
+                    "tag": {
+                        "display": {
+                            "Lore": [
+                                "§fТак мало, но так много можно всего купить"
+                            ],
+                            "Name": "§2§a§l5 евро"
+                        }
+                    },
+                    "Damage": 0s
+                }
+            ],
+            "Description": "Порадуй маму",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Dialogue": "cheesegruzin",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Output": [
+                {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "variedcommodities:ancient_coin",
+                    "Count": 1b,
+                    "tag": {
+                        "display": {
+                            "Lore": [
+                                "§f§ООвечий сыр с консистенцией плотного творога, выразительной кислинкой и соленой нотой"
+                            ],
+                            "Name": "§e§lСыр Фета"
+                        }
+                    },
+                    "Damage": 0s
+                }
+            ],
+            "Visible": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Title": "Сыр Фета"
+        }
+    ]
+}

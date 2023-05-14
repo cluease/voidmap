@@ -1,0 +1,125 @@
+{
+    "Closable": 1b,
+    "Main": "b9c8828b-48a4-471c-b7db-120bc8660a92",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Посмотреть повтор утреннего эфира)"
+            },
+            "X": 167,
+            "Title": "",
+            "Y": 52,
+            "Relations": [
+                "1914efe6-a4c0-4167-a21b-83105599b1e9",
+                "05b16318-d663-4b13-a08c-137dba5a45de"
+            ],
+            "Id": "ab28fd2d-3219-4ed8-83a9-a039bed889dc"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.old_explode master @p ~ ~ ~ 300",
+            "X": 210,
+            "Title": "звук",
+            "Y": -116,
+            "Id": "16610d98-5714-453b-9f04-b78c6c30af6f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(По телевизору показывают утренние новости)"
+            },
+            "X": 4,
+            "Title": "",
+            "Y": -138,
+            "Sound": "",
+            "Relations": [
+                "ab28fd2d-3219-4ed8-83a9-a039bed889dc",
+                "66260e54-186d-43e4-b1e8-e9e59090c589",
+                "16610d98-5714-453b-9f04-b78c6c30af6f"
+            ],
+            "Id": "8a1c8c63-b0d7-4307-b8c2-67b77141debd",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play news1 @p",
+            "X": 266,
+            "Title": "",
+            "Y": 276,
+            "Id": "05b16318-d663-4b13-a08c-137dba5a45de"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play news @p",
+            "X": 88,
+            "Title": "",
+            "Y": 275,
+            "Id": "1914efe6-a4c0-4167-a21b-83105599b1e9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16718619,
+                "Text": "(Закрыть)"
+            },
+            "X": -159,
+            "Title": "",
+            "Y": 60,
+            "Id": "66260e54-186d-43e4-b1e8-e9e59090c589"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "phone",
+                            "Marker": "marta1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "phone",
+                            "Marker": "deliver2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 2.0d,
+                            "Id": "IMPORTANT",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 4,
+            "Title": "",
+            "Y": -329,
+            "Relations": [
+                "8a1c8c63-b0d7-4307-b8c2-67b77141debd"
+            ],
+            "Id": "b9c8828b-48a4-471c-b7db-120bc8660a92"
+        }
+    ]
+}

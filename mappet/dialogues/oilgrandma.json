@@ -1,0 +1,287 @@
+{
+    "Closable": 0b,
+    "Main": "2aff92d9-fe9b-449d-9801-0664d6cfbd69",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Подумай о том, что ты сделаешь доброе дело!"
+            },
+            "X": -391,
+            "Title": "",
+            "Y": 600,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "d0f02023-0beb-43f8-92b6-c349afdcaec5",
+                "36e702c2-6c66-4e5d-bd05-12c2e7008eb2"
+            ],
+            "Id": "16da1507-2e67-42e7-b801-038fbb0f511c",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не хотите отведать домашнего оливкового масла прямого холодного отжима? Свежее, только сегодня изготовленное
+В продаже так же есть оливки любого сорта, на любой вкус"
+            },
+            "X": 68,
+            "Title": "",
+            "Y": -34,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cutegrandma.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "8af6dd7d-dab6-4fed-87db-89b4daa8bae4",
+                "e26161c4-4192-404d-9ff1-0636bd4c46ad"
+            ],
+            "Id": "2aff92d9-fe9b-449d-9801-0664d6cfbd69",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Грх, ладно, уговорил"
+            },
+            "X": -638,
+            "Title": "",
+            "Y": 776,
+            "Relations": [
+                "e1ab1e66-1a99-4f8e-8caf-5ab1ba82c73c",
+                "cb5afe64-bc09-4046-b41a-8c7e14c2f880"
+            ],
+            "Id": "d0f02023-0beb-43f8-92b6-c349afdcaec5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо. Оливковое масло - это, наверное, последнее, что я хотела бы купить"
+            },
+            "X": -156,
+            "Title": "",
+            "Y": 68,
+            "Relations": [
+                "49e76b92-205c-464d-abb2-937f6cfa172a"
+            ],
+            "Id": "644e974e-aa08-48a9-b157-f143c811efc3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, глупая затея"
+            },
+            "X": -233,
+            "Title": "",
+            "Y": 785,
+            "Relations": [
+                "fef38db2-5e8f-4857-a0f5-7374217050b1"
+            ],
+            "Id": "36e702c2-6c66-4e5d-bd05-12c2e7008eb2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я просто не люблю тратить деньги впустую, пошли дальше"
+            },
+            "X": -93,
+            "Title": "",
+            "Y": 1100,
+            "Id": "be64b5e2-8458-4b5d-91e0-843fb6befb90"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16721960,
+                "Text": "(Закрыть)"
+            },
+            "X": 285,
+            "Title": "",
+            "Y": 71,
+            "Id": "8af6dd7d-dab6-4fed-87db-89b4daa8bae4"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp faction add @p lucas 1",
+            "X": -541,
+            "Title": "Улучшение отношений",
+            "Y": 968,
+            "Id": "cb5afe64-bc09-4046-b41a-8c7e14c2f880"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Ну Ханна, посмотри какая милая и добрая старушка, ну купи бутылочку хотя бы из вежливости"
+            },
+            "X": -223,
+            "Title": "",
+            "Y": 241,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "27213186-34b1-48f4-841a-a917c60772f7"
+            ],
+            "Id": "49e76b92-205c-464d-abb2-937f6cfa172a",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r А я думал, ты добрее"
+            },
+            "X": -92,
+            "Title": "",
+            "Y": 948,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "be64b5e2-8458-4b5d-91e0-843fb6befb90"
+            ],
+            "Id": "fef38db2-5e8f-4857-a0f5-7374217050b1",
+            "Marker": ""
+        },
+        {
+            "CraftingTable": "babooshka",
+            "Type": "crafting",
+            "X": -731,
+            "Title": "",
+            "Y": 967,
+            "Id": "e1ab1e66-1a99-4f8e-8caf-5ab1ba82c73c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 2,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:ancient_scroll",
+                                "Count": 1b,
+                                "tag": {
+                                    "display": {
+                                        "Lore": [
+                                            "§fЗачем? Обрадовать бабушку!"
+                                        ],
+                                        "Name": "§e§lОливковое масло"
+                                    }
+                                },
+                                "Damage": 0s
+                            }
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -153,
+            "Title": "",
+            "Y": -83,
+            "Relations": [
+                "644e974e-aa08-48a9-b157-f143c811efc3"
+            ],
+            "Id": "e26161c4-4192-404d-9ff1-0636bd4c46ad"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "*Шепотом* Эй, я не обязана покупать что-то только из вежливости"
+            },
+            "X": -388,
+            "Title": "",
+            "Y": 406,
+            "Relations": [
+                "16da1507-2e67-42e7-b801-038fbb0f511c"
+            ],
+            "Id": "27213186-34b1-48f4-841a-a917c60772f7"
+        }
+    ]
+}

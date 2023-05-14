@@ -1,0 +1,45 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "doorgreece",
+                            "Marker": "money",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Оплатить доставку",
+    "Story": "",
+    "Cancelable": 1b
+}

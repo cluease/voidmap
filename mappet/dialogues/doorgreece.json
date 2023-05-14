@@ -1,0 +1,508 @@
+{
+    "Closable": 1b,
+    "Main": "e85abe13-7273-4294-8fbd-2bb291af00d9",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "greece2",
+                            "Quest": 2,
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "marta1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "IMPORTANT",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -144,
+            "Title": "ресторан",
+            "Y": 38,
+            "Relations": [
+                "d4251099-3490-45bc-bfbe-feda758bdec7"
+            ],
+            "Id": "80102e23-c82e-435c-8887-8ac5a2a66bc4"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый вечер, ваш заказ. С вас 20 евро"
+            },
+            "X": 418,
+            "Title": "",
+            "Y": 419,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/deliver.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RY": 0.38397244f
+                    },
+                    "right_arm": {
+                        "RX": 1.0995574f,
+                        "RY": -0.12217305f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.08726647f,
+                        "RY": 0.13962634f
+                    },
+                    "left_arm": {
+                        "RX": 1.012291f,
+                        "RY": 0.05235988f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.41887903f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.34906587f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            14.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.5f,
+                            0.5f,
+                            0.5f
+                        ],
+                        "T": [
+                            -0.03125f,
+                            -0.15625f,
+                            0.5f
+                        ],
+                        "Limb": "head",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:ancient_scroll",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "365b540e-0997-43a6-823b-eb77e484fbb8"
+            ],
+            "Id": "b598b813-5c25-4830-a0c8-af2c04dead86",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(О, вижу кто-то подходит к моему дому с большим пакетом, наверное, это курьер)"
+            },
+            "X": 418,
+            "Title": "",
+            "Y": 223,
+            "Relations": [
+                "b598b813-5c25-4830-a0c8-af2c04dead86",
+                "333fd73c-62e3-4ae4-8e77-f16c8066d6b2"
+            ],
+            "Id": "d8575d73-08d4-4a76-a139-91786acc5b0f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на улицу Пандроссу 12)"
+            },
+            "X": 688,
+            "Title": "",
+            "Y": 25,
+            "Relations": [
+                "650ec40b-98fe-41ec-bf27-9d4419c93fb5"
+            ],
+            "Id": "f6c1d02c-01c9-448c-8903-0346d6f25e7a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И вам"
+            },
+            "X": 417,
+            "Title": "",
+            "Y": 981,
+            "Relations": [
+                "3fcb9d90-5fe3-4002-8208-c90e9d459bc8"
+            ],
+            "Id": "e96c716a-b9a8-4996-90a3-16fe1ea09a43"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1584 74 380",
+            "X": 896,
+            "Title": "",
+            "Y": 132,
+            "Id": "650ec40b-98fe-41ec-bf27-9d4419c93fb5"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp quest accept @p deliver",
+            "X": 755,
+            "Title": "",
+            "Y": 419,
+            "Id": "333fd73c-62e3-4ae4-8e77-f16c8066d6b2"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1367 7 627",
+            "X": -82,
+            "Title": "",
+            "Y": 387,
+            "Id": "5ae0171b-9047-4fea-af2d-7cea1e31e4eb"
+        },
+        {
+            "Type": "command",
+            "Command": "mp state set ~ IMPORTANT 0",
+            "X": 419,
+            "Title": "",
+            "Y": 1153,
+            "Id": "3fcb9d90-5fe3-4002-8208-c90e9d459bc8"
+        },
+        {
+            "Type": "command",
+            "Command": "mp state set ~ IMPORTANT 0",
+            "X": -296,
+            "Title": "",
+            "Y": 534,
+            "Id": "ac4d0aa7-d2db-4db2-92e3-1e932dda5d9b"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "lucasaccept",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 430,
+            "Title": "лукас",
+            "Y": -102,
+            "Relations": [
+                "f6c1d02c-01c9-448c-8903-0346d6f25e7a"
+            ],
+            "Id": "7d0ddb37-c76d-4297-b991-c9bbec5f5187"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо, мэм. Хорошего вечера"
+            },
+            "X": 416,
+            "Title": "",
+            "Y": 798,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/deliver.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": -0.12217303f,
+                        "RY": 0.15707964f,
+                        "RZ": 0.08726647f
+                    },
+                    "right_arm": {
+                        "RX": 0.6806784f,
+                        "RY": -0.61086524f,
+                        "RZ": -0.22689283f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RY": 0.296706f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.20943944f,
+                        "RY": -1.7453292E-8f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.5061455f,
+                        "RY": 0.05235988f,
+                        "RZ": -0.017453276f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.017453292f,
+                        "RZ": 0.13962634f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Y": 0.125f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.17453294f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            14.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.0f,
+                            0.5f,
+                            0.5f
+                        ],
+                        "T": [
+                            -0.03125f,
+                            -1.25f,
+                            0.5f
+                        ],
+                        "Limb": "left_arm",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:ancient_scroll",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "e96c716a-b9a8-4996-90a3-16fe1ea09a43"
+            ],
+            "Id": "998a5b8e-9dd9-4dbc-a6cb-f1c98f57d380",
+            "Marker": "money"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Секунду, вот"
+            },
+            "X": 416,
+            "Title": "",
+            "Y": 595,
+            "Relations": [
+                "998a5b8e-9dd9-4dbc-a6cb-f1c98f57d380"
+            ],
+            "Id": "365b540e-0997-43a6-823b-eb77e484fbb8"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Используя двери, вы можете путешествовать по локациям)"
+            },
+            "X": 74,
+            "Title": "",
+            "Y": -156,
+            "Sound": "",
+            "Relations": [
+                "7f6afdbf-b06e-4767-9c5c-cd64ee29ea53",
+                "80102e23-c82e-435c-8887-8ac5a2a66bc4",
+                "7d0ddb37-c76d-4297-b991-c9bbec5f5187"
+            ],
+            "Id": "e85abe13-7273-4294-8fbd-2bb291af00d9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Встретиться с Мартой в ресторане)"
+            },
+            "X": -296,
+            "Title": "",
+            "Y": 221,
+            "Relations": [
+                "5ae0171b-9047-4fea-af2d-7cea1e31e4eb",
+                "ac4d0aa7-d2db-4db2-92e3-1e932dda5d9b"
+            ],
+            "Id": "d4251099-3490-45bc-bfbe-feda758bdec7"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "greece2",
+                            "Quest": 2,
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "deliver2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "1",
+                            "Value": 1.0d,
+                            "Id": "IMPORTANT",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 273,
+            "Title": "курьер",
+            "Y": 27,
+            "Relations": [
+                "d8575d73-08d4-4a76-a139-91786acc5b0f"
+            ],
+            "Id": "7f6afdbf-b06e-4767-9c5c-cd64ee29ea53"
+        }
+    ]
+}

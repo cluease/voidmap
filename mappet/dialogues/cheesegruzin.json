@@ -1,0 +1,152 @@
+{
+    "Closable": 0b,
+    "Main": "ddee9724-6683-4ce0-9c90-77ee60278cc5",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да, можно мне сыр Фета, пожалуйста?"
+            },
+            "X": 486,
+            "Title": "",
+            "Y": 426,
+            "Relations": [
+                "1a89ca8f-aca6-4871-a1b6-cb61c80d29cf"
+            ],
+            "Id": "b19b9a3b-0cff-47a5-92ad-6ad3f213bd55"
+        },
+        {
+            "CraftingTable": "gruzin",
+            "Type": "crafting",
+            "X": 580,
+            "Title": "",
+            "Y": 612,
+            "Id": "1a89ca8f-aca6-4871-a1b6-cb61c80d29cf"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Настояшый сыр «Фэта», прэготовлэнный из овьечего и коузьего молока, такого вы нэ сышшыте нэгдэ, кромье Грэцыи!"
+            },
+            "X": 72,
+            "Title": "",
+            "Y": -76,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/gruzinguy.png"
+                        }
+                    }
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "da874fde-be26-4d06-ab0a-c74e67601d32",
+                "3bac33e5-7391-48a7-b20b-5695021e3f15"
+            ],
+            "Id": "ddee9724-6683-4ce0-9c90-77ee60278cc5",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Дэвушка, вы что-то хотэли?"
+            },
+            "X": 416,
+            "Title": "",
+            "Y": 244,
+            "Sound": "",
+            "Relations": [
+                "b19b9a3b-0cff-47a5-92ad-6ad3f213bd55"
+            ],
+            "Id": "d6e8763e-a828-49e5-8c8c-ce4bafa8cd12",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Это любимый сыр моей мамы, а я к ней как раз собиралась заехать после отпуска. Надо бы прикупить, если я хочу ее обрадовать)"
+            },
+            "X": 274,
+            "Title": "",
+            "Y": 90,
+            "Relations": [
+                "d6e8763e-a828-49e5-8c8c-ce4bafa8cd12"
+            ],
+            "Id": "78f20a57-ebd0-41da-8463-0d698e6787b8"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 2,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:ancient_coin",
+                                "Count": 1b,
+                                "tag": {
+                                    "display": {
+                                        "Lore": [
+                                            "§f§ООвечий сыр с консистенцией плотного творога, выразительной кислинкой и соленой нотой"
+                                        ],
+                                        "Name": "§e§lСыр Фета"
+                                    }
+                                },
+                                "Damage": 0s
+                            }
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 274,
+            "Title": "",
+            "Y": -58,
+            "Relations": [
+                "78f20a57-ebd0-41da-8463-0d698e6787b8"
+            ],
+            "Id": "3bac33e5-7391-48a7-b20b-5695021e3f15"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16721960,
+                "Text": "(Закрыть)"
+            },
+            "X": -167,
+            "Title": "",
+            "Y": 70,
+            "Id": "da874fde-be26-4d06-ab0a-c74e67601d32"
+        }
+    ]
+}

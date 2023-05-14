@@ -1,0 +1,63 @@
+{
+    "Action": "Оплатить",
+    "Title": "Оливковое масло",
+    "Recipes": [
+        {
+            "Input": [
+                {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "variedcommodities:money",
+                    "Count": 3b,
+                    "tag": {
+                        "display": {
+                            "Lore": [
+                                "§fТак мало, но так много можно всего купить"
+                            ],
+                            "Name": "§2§a§l5 евро"
+                        }
+                    },
+                    "Damage": 0s
+                }
+            ],
+            "Description": "Порадуй бабулю",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Dialogue": "oilgrandma",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Output": [
+                {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "variedcommodities:ancient_scroll",
+                    "Count": 1b,
+                    "tag": {
+                        "display": {
+                            "Lore": [
+                                "§fЗачем? Обрадовать бабушку!"
+                            ],
+                            "Name": "§e§lОливковое масло"
+                        }
+                    },
+                    "Damage": 0s
+                }
+            ],
+            "Visible": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Title": "Оливковое масло"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "Color": 2925116,
+    "Visible": {
+        "Condition": {
+        },
+        "Mode": 1
+    },
+    "Title": "Лукас",
+    "DefaultScore": 6,
+    "OthersAttitude": "FRIENDLY",
+    "PlayerAttitude": "FRIENDLY",
+    "OwnRelation": {
+        "Thresholds": [
+            {
+                "Score": 0,
+                "Attitude": "FRIENDLY",
+                "Color": 15606306,
+                "Title": "Предпочитает не вспоминать о вас"
+            },
+            {
+                "Score": 6,
+                "Attitude": "FRIENDLY",
+                "Color": 11184810,
+                "Title": "Знакомые"
+            },
+            {
+                "Score": 9,
+                "Attitude": "FRIENDLY",
+                "Color": 2289186,
+                "Title": "Друзья"
+            },
+            {
+                "Score": 12,
+                "Attitude": "FRIENDLY",
+                "Color": 16738728,
+                "Title": "Что-то большее"
+            }
+        ]
+    }
+}

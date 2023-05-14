@@ -1,0 +1,2560 @@
+{
+    "Closable": 1b,
+    "Main": "308a3ccf-9c57-414b-98be-4574bcd56497",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну сама посуди, не может же быть столько совпадений!"
+            },
+            "X": 879,
+            "Title": "",
+            "Y": 1921,
+            "Sound": "",
+            "Relations": [
+                "2607c856-5cd7-44a2-a6d1-d0d26c2348a8"
+            ],
+            "Id": "909ece5a-4ffc-4e58-9a62-d8764c8107f4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А почему сомнения?"
+            },
+            "X": 688,
+            "Title": "",
+            "Y": 1358,
+            "Relations": [
+                "a1175c2e-2053-4689-8370-0aad69cb44be"
+            ],
+            "Id": "7168210a-2c8a-4c37-a210-e7f033bd5b47"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ха-ха, не стоит"
+            },
+            "X": -690,
+            "Title": "",
+            "Y": 1900,
+            "Relations": [
+                "9a0dd399-d372-43fc-b3a3-2fc42fa0638e"
+            ],
+            "Id": "334a64b8-9b46-4b54-b58f-cab96b2a0e75"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да ладно, в мире вечно происходят какие-то катастрофы"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": 2748,
+            "Relations": [
+                "d640363e-d0b0-403b-bdb5-a22f545f8711"
+            ],
+            "Id": "4f6b395e-c58d-4d01-9163-ff9753040803"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ох, Ханна, ты иногда бываешь такой занудой. Совсем не изменилась со старшей школы, но за это я тебя и люблю!"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": 759,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.64577186f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.7504916f,
+                        "RY": 0.12217305f,
+                        "RZ": -0.13962634f
+                    },
+                    "left_arm": {
+                        "RX": 0.22689281f,
+                        "RY": 0.34906587f,
+                        "RZ": 0.034906585f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.33161256f,
+                        "RY": 0.08726647f,
+                        "RZ": -0.43633232f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "a770bc0a-034c-4797-a7ef-11d8131a3228"
+            ],
+            "Id": "a76f124a-b1ee-45be-a000-2cfa1db1fdf5",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну а ты как, еще не нашла себе \"новую жертву\"?"
+            },
+            "X": 371,
+            "Title": "",
+            "Y": 1014,
+            "Relations": [
+                "be1036ec-450a-4e19-9f50-5dc692bae599"
+            ],
+            "Id": "0e660334-eece-44c9-bb39-64a5227a3938"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Просто, понимаешь, он по знаку зодиака - девы! А все мужчины-девы в моей жизни по итогу оказывались полнейшими козлами, не хочу наступать на одни и те же грабли"
+            },
+            "X": 894,
+            "Title": "",
+            "Y": 1542,
+            "Sound": "",
+            "Relations": [
+                "f6e17605-2a47-4956-9365-e43a6d8f8cc3",
+                "1d843bfa-2b31-4463-9c10-5a4a2c1f697a"
+            ],
+            "Id": "a1175c2e-2053-4689-8370-0aad69cb44be",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я бы так никогда не поступила, ты же знаешь"
+            },
+            "X": 211,
+            "Title": "",
+            "Y": 75,
+            "Relations": [
+                "b2de576b-73f1-4be6-bede-56bc44ce73e6"
+            ],
+            "Id": "b13cbde0-3720-46e7-9c10-38265a19edb8"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вот это я понимаю! Тоже днями с пляжа не вылезаю, такой кайф. А местные греки - такие красавчики, попробуй не устоять"
+            },
+            "X": 372,
+            "Title": "",
+            "Y": 802,
+            "Sound": "",
+            "Relations": [
+                "0e660334-eece-44c9-bb39-64a5227a3938"
+            ],
+            "Id": "5209531c-1faf-484c-9e22-6fd01a06024f",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Извини, пробки"
+            },
+            "X": -253,
+            "Title": "",
+            "Y": 83,
+            "Relations": [
+                "5eb524e4-1424-4016-8e87-ee5221376368"
+            ],
+            "Id": "9b00648c-10c9-4e6f-b6ff-9f79d4ddeb21"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Их фирменная кухня - просто нечто! Огромные порции, все такое свежее, сочное, вкусное. А их домашнее вино... оно заслуживает отдельной похвалы"
+            },
+            "X": -283,
+            "Title": "",
+            "Y": 491,
+            "Relations": [
+                "5197ea33-b160-4b40-8947-9063e45b2b85"
+            ],
+            "Id": "2d82cf79-55e9-49d3-aeb8-65e8011e075f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну наконец-то! Я уж думала ты меня разыграла и не придешь"
+            },
+            "X": 12,
+            "Title": "",
+            "Y": -72,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.64577186f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.22689281f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.22689281f,
+                        "RY": 0.34906587f,
+                        "RZ": 0.034906585f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.33161256f,
+                        "RY": 0.08726647f,
+                        "RZ": -0.43633232f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "9b00648c-10c9-4e6f-b6ff-9f79d4ddeb21",
+                "b13cbde0-3720-46e7-9c10-38265a19edb8"
+            ],
+            "Id": "308a3ccf-9c57-414b-98be-4574bcd56497",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я очень приятно провела время, до скорого!"
+            },
+            "X": 3,
+            "Title": "",
+            "Y": 3484,
+            "Id": "7aaf8313-bb8d-4d1d-817b-24f7876537d4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне очень понравились экскурсии по Акрополю. Интересно узнавать глубже про истоки древнегреческой мифологии и историю. А еще я просто без ума от местных скульптур"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 509,
+            "Relations": [
+                "a76f124a-b1ee-45be-a000-2cfa1db1fdf5"
+            ],
+            "Id": "7baa2e8a-42c1-453c-b29c-f2aca455af2b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты права, мужики-девы - те еще ублюдки"
+            },
+            "X": 1137,
+            "Title": "",
+            "Y": 1672,
+            "Relations": [
+                "d1b78998-4340-49ac-bd37-825cc39b998d"
+            ],
+            "Id": "1d843bfa-2b31-4463-9c10-5a4a2c1f697a"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Слууушай. Ты смотрела последние новости? Жуть какая"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 2534,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "Placeholder": {
+                                "Placeholder": {
+                                    "Placeholder": {
+                                        "Placeholder": {
+                                            "UserData": {
+                                                "Meshes": {
+                                                    "body": {
+                                                        "Filtering": "nearest",
+                                                        "Normals": 1b,
+                                                        "Lighting": 1b,
+                                                        "Color": 16777215,
+                                                        "Smooth": 1b,
+                                                        "Visible": 1b,
+                                                        "Texture": "b.a:alex/skins/marta.png"
+                                                    }
+                                                }
+                                            },
+                                            "Animation": "slim_3d",
+                                            "Name": "emoticons.slim_3d"
+                                        },
+                                        "UserData": {
+                                            "Meshes": {
+                                                "body": {
+                                                    "Filtering": "nearest",
+                                                    "Normals": 1b,
+                                                    "Lighting": 1b,
+                                                    "Color": 16777215,
+                                                    "Smooth": 1b,
+                                                    "Visible": 1b,
+                                                    "Texture": "b.a:alex/skins/marta.png"
+                                                }
+                                            }
+                                        },
+                                        "Animation": "slim_3d",
+                                        "Name": "emoticons.slim_3d"
+                                    },
+                                    "UserData": {
+                                        "Meshes": {
+                                            "body": {
+                                                "Filtering": "nearest",
+                                                "Normals": 1b,
+                                                "Lighting": 1b,
+                                                "Color": 16777215,
+                                                "Smooth": 1b,
+                                                "Visible": 1b,
+                                                "Texture": "b.a:alex/skins/marta.png"
+                                            }
+                                        }
+                                    },
+                                    "Pose": {
+                                        "low_body": {
+                                            "RX": 0.33161256f
+                                        },
+                                        "right_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": -0.64577186f
+                                        },
+                                        "left_leg": {
+                                            "RX": 1.8849556f,
+                                            "RY": 0.31415927f,
+                                            "RZ": -0.10471976f
+                                        },
+                                        "misc_bone_1": {
+                                        },
+                                        "misc_bone_2": {
+                                        },
+                                        "misc_bone_3": {
+                                        },
+                                        "low_leg_right": {
+                                            "RX": -1.1170107f,
+                                            "RY": -0.017453292f
+                                        },
+                                        "low_right_arm.end": {
+                                        },
+                                        "misc_gbone_2": {
+                                        },
+                                        "misc_gbone_1": {
+                                        },
+                                        "body": {
+                                            "RX": 0.13962634f
+                                        },
+                                        "misc_gbone_3": {
+                                        },
+                                        "head": {
+                                            "RX": 0.22689281f,
+                                            "RZ": -0.017453292f
+                                        },
+                                        "left_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": 0.34906587f,
+                                            "RZ": 0.034906585f
+                                        },
+                                        "low_right_arm": {
+                                            "RX": 0.6632251f
+                                        },
+                                        "right_leg": {
+                                            "RX": 1.2217304f,
+                                            "RY": -0.45378563f
+                                        },
+                                        "anchor": {
+                                            "X": -0.125f,
+                                            "Z": -0.03125f
+                                        },
+                                        "low_left_leg": {
+                                            "RX": -1.1519173f,
+                                            "RY": -0.20943952f
+                                        },
+                                        "low_left_arm": {
+                                            "RX": 0.33161256f,
+                                            "RY": 0.08726647f,
+                                            "RZ": -0.43633232f
+                                        },
+                                        "low_left_arm.end": {
+                                        }
+                                    },
+                                    "Animation": "slim_3d",
+                                    "Name": "emoticons.slim_3d"
+                                },
+                                "UserData": {
+                                    "Meshes": {
+                                        "body": {
+                                            "Filtering": "nearest",
+                                            "Normals": 1b,
+                                            "Lighting": 1b,
+                                            "Color": 16777215,
+                                            "Smooth": 1b,
+                                            "Visible": 1b,
+                                            "Texture": "b.a:alex/skins/marta.png"
+                                        }
+                                    }
+                                },
+                                "Animation": "slim_3d",
+                                "Name": "emoticons.slim_3d"
+                            },
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.593412f,
+                        "RY": 0.5410521f,
+                        "RZ": -0.08726647f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.43633232f,
+                        "RY": 0.40142575f,
+                        "RZ": 0.2443461f
+                    },
+                    "left_arm": {
+                        "RX": -0.1745329f,
+                        "RY": 0.22689281f,
+                        "RZ": 0.19198622f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.959931f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.12217302f,
+                        "RZ": -0.27925265f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "4f6b395e-c58d-4d01-9163-ff9753040803"
+            ],
+            "Id": "9a0dd399-d372-43fc-b3a3-2fc42fa0638e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кстати, как там обстоят дела с новым домом?"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 1289,
+            "Relations": [
+                "dbe54f4b-fafe-401d-a400-8906dd847522"
+            ],
+            "Id": "3ece25bc-5ec4-4838-b8c9-86f052214183"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Если тебе понадобится поддержка, я всегда рядом. А если и не рядом, то по телефону мы всегда можем созвониться"
+            },
+            "X": -347,
+            "Title": "",
+            "Y": 1329,
+            "Relations": [
+                "e92556f4-5ac7-429a-b724-c7a3c2718d5e"
+            ],
+            "Id": "6900e0cf-82e5-4ec4-a552-ee6078699fe3"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну а что работа. Все еще подрабатываю секретаршей в некрупной компании, но платят неплохо, так что не хочу пока ничего менять "
+            },
+            "X": 3,
+            "Title": "",
+            "Y": 1792,
+            "Sound": "",
+            "Relations": [
+                "a2061e9a-0bac-4e2e-9d20-63f2a6b79701",
+                "468b6ce4-f3bf-4acd-9e23-cea25a2fe345"
+            ],
+            "Id": "6a5318b8-f2d5-46a9-aca3-02fb5d8c109b",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нууу.. есть у меня один паренек на примете, мы уже даже пару раз разговаривали. И он мне вроде как даже нравится.. да и я ему... но, не знаю, не знаю. Может что-нибудь да получится
+"
+            },
+            "X": 371,
+            "Title": "",
+            "Y": 1222,
+            "Sound": "",
+            "Relations": [
+                "0ecf8eae-cb82-44e5-bc7b-19f272a84e87",
+                "7168210a-2c8a-4c37-a210-e7f033bd5b47"
+            ],
+            "Id": "be1036ec-450a-4e19-9f50-5dc692bae599",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Назад)"
+            },
+            "X": 1143,
+            "Title": "",
+            "Y": 2086,
+            "Relations": [
+                "be1036ec-450a-4e19-9f50-5dc692bae599"
+            ],
+            "Id": "1bee8aa9-9bd3-4175-b1b0-3557a82965f5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как скажешь"
+            },
+            "X": 8,
+            "Title": "",
+            "Y": 2288,
+            "Relations": [
+                "9a0dd399-d372-43fc-b3a3-2fc42fa0638e"
+            ],
+            "Id": "8e3ab828-de26-49c8-9105-6aca65f5a8d9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не уж то действительно влюбилась?!"
+            },
+            "X": 369,
+            "Title": "",
+            "Y": 1421,
+            "Relations": [
+                "9aa1a51e-22b8-4c4a-b1e3-3ac68caedbf4"
+            ],
+            "Id": "0ecf8eae-cb82-44e5-bc7b-19f272a84e87"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вот найду себе мужика нормального, тогда и поменяю. Сейчас я живу в моменте, и меня все устраивает"
+            },
+            "X": 247,
+            "Title": "",
+            "Y": 2142,
+            "Sound": "",
+            "Relations": [
+                "8e3ab828-de26-49c8-9105-6aca65f5a8d9"
+            ],
+            "Id": "768df3db-8e51-4ce7-9aa0-a285817a0c1e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да, но.. таких масштабов и в таком количестве - вроде бы впервые"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 2942,
+            "Sound": "",
+            "Relations": [
+                "78b5a425-e265-4c49-9acb-351690533f05"
+            ],
+            "Id": "d640363e-d0b0-403b-bdb5-a22f545f8711",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не переживай, я все та же"
+            },
+            "X": 412,
+            "Title": "",
+            "Y": 204,
+            "Relations": [
+                "5eb524e4-1424-4016-8e87-ee5221376368"
+            ],
+            "Id": "d089e5bd-da2c-4422-84fd-dfd73a9dd86f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А ты та еще непостоянная растяпа. Я думаю, из нас выходит отличный дуэт"
+            },
+            "X": 4,
+            "Title": "",
+            "Y": 945,
+            "Relations": [
+                "cf4e3aea-8397-4b39-9278-b8da0a9bdbdf"
+            ],
+            "Id": "a770bc0a-034c-4797-a7ef-11d8131a3228"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо родная! Я ценю это, правда. Мне повезло, что у меня есть такая чудесная подруга"
+            },
+            "X": -347,
+            "Title": "",
+            "Y": 1532,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "Placeholder": {
+                                "Placeholder": {
+                                    "UserData": {
+                                        "Meshes": {
+                                            "body": {
+                                                "Filtering": "nearest",
+                                                "Normals": 1b,
+                                                "Lighting": 1b,
+                                                "Color": 16777215,
+                                                "Smooth": 1b,
+                                                "Visible": 1b,
+                                                "Texture": "b.a:alex/skins/marta.png"
+                                            }
+                                        }
+                                    },
+                                    "Animation": "slim_3d",
+                                    "Name": "emoticons.slim_3d"
+                                },
+                                "UserData": {
+                                    "Meshes": {
+                                        "body": {
+                                            "Filtering": "nearest",
+                                            "Normals": 1b,
+                                            "Lighting": 1b,
+                                            "Color": 16777215,
+                                            "Smooth": 1b,
+                                            "Visible": 1b,
+                                            "Texture": "b.a:alex/skins/marta.png"
+                                        }
+                                    }
+                                },
+                                "Animation": "slim_3d",
+                                "Name": "emoticons.slim_3d"
+                            },
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Pose": {
+                                "low_body": {
+                                    "RX": 0.33161256f
+                                },
+                                "right_arm": {
+                                    "RX": 0.22689281f,
+                                    "RY": -0.64577186f
+                                },
+                                "left_leg": {
+                                    "RX": 1.8849556f,
+                                    "RY": 0.31415927f,
+                                    "RZ": -0.10471976f
+                                },
+                                "misc_bone_1": {
+                                },
+                                "misc_bone_2": {
+                                },
+                                "misc_bone_3": {
+                                },
+                                "low_leg_right": {
+                                    "RX": -1.1170107f,
+                                    "RY": -0.017453292f
+                                },
+                                "low_right_arm.end": {
+                                },
+                                "misc_gbone_2": {
+                                },
+                                "misc_gbone_1": {
+                                },
+                                "body": {
+                                    "RX": 0.13962634f
+                                },
+                                "misc_gbone_3": {
+                                },
+                                "head": {
+                                    "RX": 0.22689281f,
+                                    "RZ": -0.017453292f
+                                },
+                                "left_arm": {
+                                    "RX": 0.22689281f,
+                                    "RY": 0.34906587f,
+                                    "RZ": 0.034906585f
+                                },
+                                "low_right_arm": {
+                                    "RX": 0.6632251f
+                                },
+                                "right_leg": {
+                                    "RX": 1.2217304f,
+                                    "RY": -0.45378563f
+                                },
+                                "anchor": {
+                                    "X": -0.125f,
+                                    "Z": -0.03125f
+                                },
+                                "low_left_leg": {
+                                    "RX": -1.1519173f,
+                                    "RY": -0.20943952f
+                                },
+                                "low_left_arm": {
+                                    "RX": 0.33161256f,
+                                    "RY": 0.08726647f,
+                                    "RZ": -0.43633232f
+                                },
+                                "low_left_arm.end": {
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": -0.24434608f,
+                        "RY": -0.64577186f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.5410521f,
+                        "RY": 0.296706f,
+                        "RZ": -0.08726647f
+                    },
+                    "left_arm": {
+                        "RX": -0.1745329f,
+                        "RY": 0.22689281f,
+                        "RZ": 0.19198622f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.12217302f,
+                        "RZ": -0.27925265f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "334a64b8-9b46-4b54-b58f-cab96b2a0e75"
+            ],
+            "Id": "e92556f4-5ac7-429a-b724-c7a3c2718d5e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Надеюсь, ты права.. Ладно, мы здесь уже и так прилично сидим, было приятно повидаться! Звони, пиши и не забывай про меня"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 3302,
+            "Sound": "",
+            "Relations": [
+                "7aaf8313-bb8d-4d1d-817b-24f7876537d4"
+            ],
+            "Id": "6c326c13-c436-428f-85c6-058a1525bd15",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я думаю, это зависит не от знака зодиака..."
+            },
+            "X": 883,
+            "Title": "",
+            "Y": 1730,
+            "Relations": [
+                "909ece5a-4ffc-4e58-9a62-d8764c8107f4"
+            ],
+            "Id": "f6e17605-2a47-4956-9365-e43a6d8f8cc3"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мы не виделись целых 5 лет! Каждый за такое время мог бы здорово измениться"
+            },
+            "X": 409,
+            "Title": "",
+            "Y": 15,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "Placeholder": {
+                                "Placeholder": {
+                                    "Placeholder": {
+                                        "Placeholder": {
+                                            "Placeholder": {
+                                                "Placeholder": {
+                                                    "Placeholder": {
+                                                        "UserData": {
+                                                            "Meshes": {
+                                                                "body": {
+                                                                    "Filtering": "nearest",
+                                                                    "Normals": 1b,
+                                                                    "Lighting": 1b,
+                                                                    "Color": 16777215,
+                                                                    "Smooth": 1b,
+                                                                    "Visible": 1b,
+                                                                    "Texture": "b.a:alex/skins/marta.png"
+                                                                }
+                                                            }
+                                                        },
+                                                        "Animation": "slim_3d",
+                                                        "Name": "emoticons.slim_3d"
+                                                    },
+                                                    "UserData": {
+                                                        "Meshes": {
+                                                            "body": {
+                                                                "Filtering": "nearest",
+                                                                "Normals": 1b,
+                                                                "Lighting": 1b,
+                                                                "Color": 16777215,
+                                                                "Smooth": 1b,
+                                                                "Visible": 1b,
+                                                                "Texture": "b.a:alex/skins/marta.png"
+                                                            }
+                                                        }
+                                                    },
+                                                    "Animation": "slim_3d",
+                                                    "Name": "emoticons.slim_3d"
+                                                },
+                                                "UserData": {
+                                                    "Meshes": {
+                                                        "body": {
+                                                            "Filtering": "nearest",
+                                                            "Normals": 1b,
+                                                            "Lighting": 1b,
+                                                            "Color": 16777215,
+                                                            "Smooth": 1b,
+                                                            "Visible": 1b,
+                                                            "Texture": "b.a:alex/skins/marta.png"
+                                                        }
+                                                    }
+                                                },
+                                                "Pose": {
+                                                    "low_body": {
+                                                        "RX": 0.33161256f
+                                                    },
+                                                    "right_arm": {
+                                                        "RX": 0.22689281f,
+                                                        "RY": -0.64577186f
+                                                    },
+                                                    "left_leg": {
+                                                        "RX": 1.8849556f,
+                                                        "RY": 0.31415927f,
+                                                        "RZ": -0.10471976f
+                                                    },
+                                                    "misc_bone_1": {
+                                                    },
+                                                    "misc_bone_2": {
+                                                    },
+                                                    "misc_bone_3": {
+                                                    },
+                                                    "low_leg_right": {
+                                                        "RX": -1.1170107f,
+                                                        "RY": -0.017453292f
+                                                    },
+                                                    "low_right_arm.end": {
+                                                    },
+                                                    "misc_gbone_2": {
+                                                    },
+                                                    "misc_gbone_1": {
+                                                    },
+                                                    "body": {
+                                                        "RX": 0.13962634f
+                                                    },
+                                                    "misc_gbone_3": {
+                                                    },
+                                                    "head": {
+                                                        "RX": 0.22689281f,
+                                                        "RZ": -0.017453292f
+                                                    },
+                                                    "left_arm": {
+                                                        "RX": 0.22689281f,
+                                                        "RY": 0.34906587f,
+                                                        "RZ": 0.034906585f
+                                                    },
+                                                    "low_right_arm": {
+                                                        "RX": 0.6632251f
+                                                    },
+                                                    "right_leg": {
+                                                        "RX": 1.2217304f,
+                                                        "RY": -0.45378563f
+                                                    },
+                                                    "anchor": {
+                                                        "X": -0.125f,
+                                                        "Z": -0.03125f
+                                                    },
+                                                    "low_left_leg": {
+                                                        "RX": -1.1519173f,
+                                                        "RY": -0.20943952f
+                                                    },
+                                                    "low_left_arm": {
+                                                        "RX": 0.33161256f,
+                                                        "RY": 0.08726647f,
+                                                        "RZ": -0.43633232f
+                                                    },
+                                                    "low_left_arm.end": {
+                                                    }
+                                                },
+                                                "Animation": "slim_3d",
+                                                "Name": "emoticons.slim_3d"
+                                            },
+                                            "UserData": {
+                                                "Meshes": {
+                                                    "body": {
+                                                        "Filtering": "nearest",
+                                                        "Normals": 1b,
+                                                        "Lighting": 1b,
+                                                        "Color": 16777215,
+                                                        "Smooth": 1b,
+                                                        "Visible": 1b,
+                                                        "Texture": "b.a:alex/skins/marta.png"
+                                                    }
+                                                }
+                                            },
+                                            "Animation": "slim_3d",
+                                            "Name": "emoticons.slim_3d"
+                                        },
+                                        "UserData": {
+                                            "Meshes": {
+                                                "body": {
+                                                    "Filtering": "nearest",
+                                                    "Normals": 1b,
+                                                    "Lighting": 1b,
+                                                    "Color": 16777215,
+                                                    "Smooth": 1b,
+                                                    "Visible": 1b,
+                                                    "Texture": "b.a:alex/skins/marta.png"
+                                                }
+                                            }
+                                        },
+                                        "Animation": "slim_3d",
+                                        "Name": "emoticons.slim_3d"
+                                    },
+                                    "UserData": {
+                                        "Meshes": {
+                                            "body": {
+                                                "Filtering": "nearest",
+                                                "Normals": 1b,
+                                                "Lighting": 1b,
+                                                "Color": 16777215,
+                                                "Smooth": 1b,
+                                                "Visible": 1b,
+                                                "Texture": "b.a:alex/skins/marta.png"
+                                            }
+                                        }
+                                    },
+                                    "Pose": {
+                                        "low_body": {
+                                            "RX": 0.33161256f
+                                        },
+                                        "right_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": -0.64577186f
+                                        },
+                                        "left_leg": {
+                                            "RX": 1.8849556f,
+                                            "RY": 0.31415927f,
+                                            "RZ": -0.10471976f
+                                        },
+                                        "misc_bone_1": {
+                                        },
+                                        "misc_bone_2": {
+                                        },
+                                        "misc_bone_3": {
+                                        },
+                                        "low_leg_right": {
+                                            "RX": -1.1170107f,
+                                            "RY": -0.017453292f
+                                        },
+                                        "low_right_arm.end": {
+                                        },
+                                        "misc_gbone_2": {
+                                        },
+                                        "misc_gbone_1": {
+                                        },
+                                        "body": {
+                                            "RX": 0.13962634f
+                                        },
+                                        "misc_gbone_3": {
+                                        },
+                                        "head": {
+                                            "RX": 0.22689281f,
+                                            "RZ": -0.017453292f
+                                        },
+                                        "left_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": 0.34906587f,
+                                            "RZ": 0.034906585f
+                                        },
+                                        "low_right_arm": {
+                                            "RX": 0.6632251f
+                                        },
+                                        "right_leg": {
+                                            "RX": 1.2217304f,
+                                            "RY": -0.45378563f
+                                        },
+                                        "anchor": {
+                                            "X": -0.125f,
+                                            "Z": -0.03125f
+                                        },
+                                        "low_left_leg": {
+                                            "RX": -1.1519173f,
+                                            "RY": -0.20943952f
+                                        },
+                                        "low_left_arm": {
+                                            "RX": 0.33161256f,
+                                            "RY": 0.08726647f,
+                                            "RZ": -0.43633232f
+                                        },
+                                        "low_left_arm.end": {
+                                        }
+                                    },
+                                    "Animation": "slim_3d",
+                                    "Name": "emoticons.slim_3d"
+                                },
+                                "UserData": {
+                                    "Meshes": {
+                                        "body": {
+                                            "Filtering": "nearest",
+                                            "Normals": 1b,
+                                            "Lighting": 1b,
+                                            "Color": 16777215,
+                                            "Smooth": 1b,
+                                            "Visible": 1b,
+                                            "Texture": "b.a:alex/skins/marta.png"
+                                        }
+                                    }
+                                },
+                                "Animation": "slim_3d",
+                                "Name": "emoticons.slim_3d"
+                            },
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 1.6057031f,
+                        "RY": 1.0995574f,
+                        "RZ": -1.2391838f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.45378566f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 2.2514749f,
+                        "RY": -1.012291f,
+                        "RZ": 0.17453294f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.80285144f,
+                        "RY": 0.22689281f,
+                        "RZ": -0.017453292f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "d089e5bd-da2c-4422-84fd-dfd73a9dd86f"
+            ],
+            "Id": "b2de576b-73f1-4be6-bede-56bc44ce73e6",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну ладно. Ты давай лучше расскажи, как тебе отпуск в Греции? Открыла что-нибудь новое для себя?"
+            },
+            "X": 8,
+            "Title": "",
+            "Y": 270,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.64577186f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.22689281f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.22689281f,
+                        "RY": 0.34906587f,
+                        "RZ": 0.034906585f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.33161256f,
+                        "RY": 0.08726647f,
+                        "RZ": -0.43633232f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "2d82cf79-55e9-49d3-aeb8-65e8011e075f",
+                "7baa2e8a-42c1-453c-b29c-f2aca455af2b",
+                "f4b87391-045e-4b5b-9bc8-7e765af6f7d0"
+            ],
+            "Id": "5eb524e4-1424-4016-8e87-ee5221376368",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ой, не дави на больное. Я хотя бы не задерживаюсь каждый день на работе допоздна, и нормально высыпаюсь!
+Ну.. когда как"
+            },
+            "X": -273,
+            "Title": "",
+            "Y": 2150,
+            "Sound": "",
+            "Relations": [
+                "8e3ab828-de26-49c8-9105-6aca65f5a8d9"
+            ],
+            "Id": "1c7c50f5-cbea-4da1-b75d-74a08bb34b66",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Еда - существенная часть сбалансированной диеты! Кстати.. о диетах.. я надеюсь, ты уже перестала морить себя голодом и начала нормально питаться"
+            },
+            "X": -349,
+            "Title": "",
+            "Y": 958,
+            "Relations": [
+                "483aa152-4a37-465d-8ce5-108913613775"
+            ],
+            "Id": "8f5ad948-cf0a-4be7-baef-b8bb843c61bc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ха-ха, я уж думала, ты заболела!"
+            },
+            "X": 518,
+            "Title": "",
+            "Y": 1987,
+            "Relations": [
+                "9a0dd399-d372-43fc-b3a3-2fc42fa0638e"
+            ],
+            "Id": "031d22f0-9900-457d-b4ec-78471aad39fa"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ха-ха, это точно!"
+            },
+            "X": 5,
+            "Title": "",
+            "Y": 1122,
+            "Sound": "",
+            "Relations": [
+                "3ece25bc-5ec4-4838-b8c9-86f052214183"
+            ],
+            "Id": "cf4e3aea-8397-4b39-9278-b8da0a9bdbdf",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну... может ты права"
+            },
+            "X": 876,
+            "Title": "",
+            "Y": 2084,
+            "Relations": [
+                "be1036ec-450a-4e19-9f50-5dc692bae599"
+            ],
+            "Id": "2607c856-5cd7-44a2-a6d1-d0d26c2348a8"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нуу.. скажем так, я как-то слишком замечталась, когда рассказывала тебе о своих дальнейших планах на жизнь. Пока что я снимаю студию с соседкой, концы с концами, конечно, не свожу, но и живу не особо богато"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": 1462,
+            "Sound": "",
+            "Relations": [
+                "7c25b527-0119-4b3b-a175-48d842204bc2"
+            ],
+            "Id": "dbe54f4b-fafe-401d-a400-8906dd847522",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Понятно. А работа?"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": 1621,
+            "Relations": [
+                "6a5318b8-f2d5-46a9-aca3-02fb5d8c109b"
+            ],
+            "Id": "7c25b527-0119-4b3b-a175-48d842204bc2"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет-нет-нет, не бывать этому. Мне нравится свобода и я хочу ее сохранить еще как минимум 10 лет!"
+            },
+            "X": 370,
+            "Title": "",
+            "Y": 1606,
+            "Sound": "",
+            "Relations": [
+                "031d22f0-9900-457d-b4ec-78471aad39fa"
+            ],
+            "Id": "9aa1a51e-22b8-4c4a-b1e3-3ac68caedbf4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Здесь просто великолепные пляжи! Я каждый день хожу загорать туда, один только вид морской лагуны чего стоит"
+            },
+            "X": 294,
+            "Title": "",
+            "Y": 490,
+            "Relations": [
+                "5209531c-1faf-484c-9e22-6fd01a06024f"
+            ],
+            "Id": "f4b87391-045e-4b5b-9bc8-7e765af6f7d0"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пора что-то менять в своей жизни. А то не заметишь, как быстро погрязнешь в рутине"
+            },
+            "X": 170,
+            "Title": "",
+            "Y": 1972,
+            "Relations": [
+                "768df3db-8e51-4ce7-9aa0-a285817a0c1e"
+            ],
+            "Id": "468b6ce4-f3bf-4acd-9e23-cea25a2fe345"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Просто совпадение"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": 3121,
+            "Relations": [
+                "6c326c13-c436-428f-85c6-058a1525bd15"
+            ],
+            "Id": "78b5a425-e265-4c49-9acb-351690533f05"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я... на пути к этому, правда. Спасибо, что беспокоишься"
+            },
+            "X": -347,
+            "Title": "",
+            "Y": 1143,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.43633235f,
+                        "RY": -0.7504916f,
+                        "RZ": -0.05235988f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                        "RX": -0.22689281f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.48869222f,
+                        "RY": -0.55850536f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.34906587f,
+                        "RY": 0.27925268f,
+                        "RZ": -0.41887903f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.8726646f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.5759586f,
+                        "RY": 0.017453292f,
+                        "RZ": -0.48869216f
+                    },
+                    "low_left_arm.end": {
+                        "RZ": 0.41887903f
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "6900e0cf-82e5-4ec4-a552-ee6078699fe3"
+            ],
+            "Id": "483aa152-4a37-465d-8ce5-108913613775",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Признай, Марта, ты просто лентяйка"
+            },
+            "X": -146,
+            "Title": "",
+            "Y": 1968,
+            "Relations": [
+                "1c7c50f5-cbea-4da1-b75d-74a08bb34b66"
+            ],
+            "Id": "a2061e9a-0bac-4e2e-9d20-63f2a6b79701"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ха-ха, тебе лишь-бы поесть"
+            },
+            "X": -349,
+            "Title": "",
+            "Y": 775,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "Placeholder": {
+                            "Placeholder": {
+                                "Placeholder": {
+                                    "Placeholder": {
+                                        "Placeholder": {
+                                            "Placeholder": {
+                                                "Placeholder": {
+                                                    "Placeholder": {
+                                                        "UserData": {
+                                                            "Meshes": {
+                                                                "body": {
+                                                                    "Filtering": "nearest",
+                                                                    "Normals": 1b,
+                                                                    "Lighting": 1b,
+                                                                    "Color": 16777215,
+                                                                    "Smooth": 1b,
+                                                                    "Visible": 1b,
+                                                                    "Texture": "b.a:alex/skins/marta.png"
+                                                                }
+                                                            }
+                                                        },
+                                                        "Animation": "slim_3d",
+                                                        "Name": "emoticons.slim_3d"
+                                                    },
+                                                    "UserData": {
+                                                        "Meshes": {
+                                                            "body": {
+                                                                "Filtering": "nearest",
+                                                                "Normals": 1b,
+                                                                "Lighting": 1b,
+                                                                "Color": 16777215,
+                                                                "Smooth": 1b,
+                                                                "Visible": 1b,
+                                                                "Texture": "b.a:alex/skins/marta.png"
+                                                            }
+                                                        }
+                                                    },
+                                                    "Animation": "slim_3d",
+                                                    "Name": "emoticons.slim_3d"
+                                                },
+                                                "UserData": {
+                                                    "Meshes": {
+                                                        "body": {
+                                                            "Filtering": "nearest",
+                                                            "Normals": 1b,
+                                                            "Lighting": 1b,
+                                                            "Color": 16777215,
+                                                            "Smooth": 1b,
+                                                            "Visible": 1b,
+                                                            "Texture": "b.a:alex/skins/marta.png"
+                                                        }
+                                                    }
+                                                },
+                                                "Pose": {
+                                                    "low_body": {
+                                                        "RX": 0.33161256f
+                                                    },
+                                                    "right_arm": {
+                                                        "RX": 0.22689281f,
+                                                        "RY": -0.64577186f
+                                                    },
+                                                    "left_leg": {
+                                                        "RX": 1.8849556f,
+                                                        "RY": 0.31415927f,
+                                                        "RZ": -0.10471976f
+                                                    },
+                                                    "misc_bone_1": {
+                                                    },
+                                                    "misc_bone_2": {
+                                                    },
+                                                    "misc_bone_3": {
+                                                    },
+                                                    "low_leg_right": {
+                                                        "RX": -1.1170107f,
+                                                        "RY": -0.017453292f
+                                                    },
+                                                    "low_right_arm.end": {
+                                                    },
+                                                    "misc_gbone_2": {
+                                                    },
+                                                    "misc_gbone_1": {
+                                                    },
+                                                    "body": {
+                                                        "RX": 0.13962634f
+                                                    },
+                                                    "misc_gbone_3": {
+                                                    },
+                                                    "head": {
+                                                        "RX": 0.22689281f,
+                                                        "RZ": -0.017453292f
+                                                    },
+                                                    "left_arm": {
+                                                        "RX": 0.22689281f,
+                                                        "RY": 0.34906587f,
+                                                        "RZ": 0.034906585f
+                                                    },
+                                                    "low_right_arm": {
+                                                        "RX": 0.6632251f
+                                                    },
+                                                    "right_leg": {
+                                                        "RX": 1.2217304f,
+                                                        "RY": -0.45378563f
+                                                    },
+                                                    "anchor": {
+                                                        "X": -0.125f,
+                                                        "Z": -0.03125f
+                                                    },
+                                                    "low_left_leg": {
+                                                        "RX": -1.1519173f,
+                                                        "RY": -0.20943952f
+                                                    },
+                                                    "low_left_arm": {
+                                                        "RX": 0.33161256f,
+                                                        "RY": 0.08726647f,
+                                                        "RZ": -0.43633232f
+                                                    },
+                                                    "low_left_arm.end": {
+                                                    }
+                                                },
+                                                "Animation": "slim_3d",
+                                                "Name": "emoticons.slim_3d"
+                                            },
+                                            "UserData": {
+                                                "Meshes": {
+                                                    "body": {
+                                                        "Filtering": "nearest",
+                                                        "Normals": 1b,
+                                                        "Lighting": 1b,
+                                                        "Color": 16777215,
+                                                        "Smooth": 1b,
+                                                        "Visible": 1b,
+                                                        "Texture": "b.a:alex/skins/marta.png"
+                                                    }
+                                                }
+                                            },
+                                            "Animation": "slim_3d",
+                                            "Name": "emoticons.slim_3d"
+                                        },
+                                        "UserData": {
+                                            "Meshes": {
+                                                "body": {
+                                                    "Filtering": "nearest",
+                                                    "Normals": 1b,
+                                                    "Lighting": 1b,
+                                                    "Color": 16777215,
+                                                    "Smooth": 1b,
+                                                    "Visible": 1b,
+                                                    "Texture": "b.a:alex/skins/marta.png"
+                                                }
+                                            }
+                                        },
+                                        "Animation": "slim_3d",
+                                        "Name": "emoticons.slim_3d"
+                                    },
+                                    "UserData": {
+                                        "Meshes": {
+                                            "body": {
+                                                "Filtering": "nearest",
+                                                "Normals": 1b,
+                                                "Lighting": 1b,
+                                                "Color": 16777215,
+                                                "Smooth": 1b,
+                                                "Visible": 1b,
+                                                "Texture": "b.a:alex/skins/marta.png"
+                                            }
+                                        }
+                                    },
+                                    "Pose": {
+                                        "low_body": {
+                                            "RX": 0.33161256f
+                                        },
+                                        "right_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": -0.64577186f
+                                        },
+                                        "left_leg": {
+                                            "RX": 1.8849556f,
+                                            "RY": 0.31415927f,
+                                            "RZ": -0.10471976f
+                                        },
+                                        "misc_bone_1": {
+                                        },
+                                        "misc_bone_2": {
+                                        },
+                                        "misc_bone_3": {
+                                        },
+                                        "low_leg_right": {
+                                            "RX": -1.1170107f,
+                                            "RY": -0.017453292f
+                                        },
+                                        "low_right_arm.end": {
+                                        },
+                                        "misc_gbone_2": {
+                                        },
+                                        "misc_gbone_1": {
+                                        },
+                                        "body": {
+                                            "RX": 0.13962634f
+                                        },
+                                        "misc_gbone_3": {
+                                        },
+                                        "head": {
+                                            "RX": 0.22689281f,
+                                            "RZ": -0.017453292f
+                                        },
+                                        "left_arm": {
+                                            "RX": 0.22689281f,
+                                            "RY": 0.34906587f,
+                                            "RZ": 0.034906585f
+                                        },
+                                        "low_right_arm": {
+                                            "RX": 0.6632251f
+                                        },
+                                        "right_leg": {
+                                            "RX": 1.2217304f,
+                                            "RY": -0.45378563f
+                                        },
+                                        "anchor": {
+                                            "X": -0.125f,
+                                            "Z": -0.03125f
+                                        },
+                                        "low_left_leg": {
+                                            "RX": -1.1519173f,
+                                            "RY": -0.20943952f
+                                        },
+                                        "low_left_arm": {
+                                            "RX": 0.33161256f,
+                                            "RY": 0.08726647f,
+                                            "RZ": -0.43633232f
+                                        },
+                                        "low_left_arm.end": {
+                                        }
+                                    },
+                                    "Animation": "slim_3d",
+                                    "Name": "emoticons.slim_3d"
+                                },
+                                "UserData": {
+                                    "Meshes": {
+                                        "body": {
+                                            "Filtering": "nearest",
+                                            "Normals": 1b,
+                                            "Lighting": 1b,
+                                            "Color": 16777215,
+                                            "Smooth": 1b,
+                                            "Visible": 1b,
+                                            "Texture": "b.a:alex/skins/marta.png"
+                                        }
+                                    }
+                                },
+                                "Animation": "slim_3d",
+                                "Name": "emoticons.slim_3d"
+                            },
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/marta.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        },
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/marta.png"
+                                }
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/marta.png"
+                            }
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/marta.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.33161256f
+                    },
+                    "right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.64577186f
+                    },
+                    "left_leg": {
+                        "RX": 1.8849556f,
+                        "RY": 0.31415927f,
+                        "RZ": -0.10471976f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f,
+                        "RY": -0.017453292f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.47123894f,
+                        "RY": 0.15707964f,
+                        "RZ": -0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 1.1170107f,
+                        "RY": 0.33161256f,
+                        "RZ": -0.05235988f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.6632251f
+                    },
+                    "right_leg": {
+                        "RX": 1.2217304f,
+                        "RY": -0.45378563f
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "Z": -0.03125f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.1519173f,
+                        "RY": -0.20943952f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.31415924f,
+                        "RY": 0.017453292f,
+                        "RZ": -1.3788102f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "8f5ad948-cf0a-4be7-baef-b8bb843c61bc"
+            ],
+            "Id": "5197ea33-b160-4b40-8947-9063e45b2b85",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну вот а я тебе про что!"
+            },
+            "X": 1143,
+            "Title": "",
+            "Y": 1916,
+            "Sound": "",
+            "Relations": [
+                "1bee8aa9-9bd3-4175-b1b0-3557a82965f5"
+            ],
+            "Id": "d1b78998-4340-49ac-bd37-825cc39b998d",
+            "Marker": ""
+        }
+    ]
+}

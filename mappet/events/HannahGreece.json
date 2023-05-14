@@ -1,0 +1,84 @@
+{
+    "Main": "94277c67-c50e-43ad-93bb-bc9f6d93cd75",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u0436:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u0425\\u0430\\u043d\\u043d\\u0430 \\u041a\\u043b\\u0430\\u0440\\u043a\"}]",
+            "X": -4,
+            "Title": "Перс",
+            "Y": -24,
+            "Relations": [
+                "949026d6-420c-4dde-a28a-e71c2c0673c0",
+                "35720cc9-e793-4bfa-9e69-0d754b34a1cf"
+            ],
+            "Id": "94277c67-c50e-43ad-93bb-bc9f6d93cd75"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0414\\u0430\\u0442\\u0430:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" 06.06.2036\"}]",
+            "X": 2,
+            "Title": "Дата",
+            "Y": 623,
+            "Id": "999dd3c2-db40-4d29-b510-6b6a3ec2779c"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": -2,
+            "Title": "",
+            "Y": 143,
+            "Relations": [
+                "201b2528-23b1-4595-86fb-98c18753b208",
+                "c2575b03-4677-4049-97fe-eccaee5bd388"
+            ],
+            "Id": "949026d6-420c-4dde-a28a-e71c2c0673c0"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 2,
+            "Title": "",
+            "Y": 470,
+            "Relations": [
+                "999dd3c2-db40-4d29-b510-6b6a3ec2779c",
+                "e35de546-4a9d-4130-9c72-5687d375a1f2"
+            ],
+            "Id": "d03132d1-120b-4bef-97d6-323019cf9c69"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -291,
+            "Title": "",
+            "Y": 631,
+            "Id": "e35de546-4a9d-4130-9c72-5687d375a1f2"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -290,
+            "Title": "",
+            "Y": 77,
+            "Id": "35720cc9-e793-4bfa-9e69-0d754b34a1cf"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041c\\u0435\\u0441\\u0442\\u043e\\u043f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u0413\\u0440\\u0435\\u0446\\u0438\\u044f - \\u0410\\u0444\\u0438\\u043d\\u044b\"}]",
+            "X": 0,
+            "Title": "Мест",
+            "Y": 300,
+            "Relations": [
+                "d03132d1-120b-4bef-97d6-323019cf9c69"
+            ],
+            "Id": "201b2528-23b1-4595-86fb-98c18753b208"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -291,
+            "Title": "",
+            "Y": 340,
+            "Id": "c2575b03-4677-4049-97fe-eccaee5bd388"
+        }
+    ]
+}

@@ -1,0 +1,459 @@
+{
+    "Closable": 1b,
+    "Main": "eaa18962-1016-4d82-a783-203afd8952c7",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ханна, вы что-то хотели спросить?"
+            },
+            "X": -52,
+            "Title": "",
+            "Y": -136,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:fred/skins/cit1.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.48869216f,
+                        "RY": -0.24434607f,
+                        "RZ": 0.19198622f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                        "RX": -0.2617994f,
+                        "RY": -0.06981317f,
+                        "RZ": -0.22689281f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.10471974f,
+                        "RY": 0.4014257f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.4363324f,
+                        "RY": 0.4014257f,
+                        "RZ": -0.08726647f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.296706f,
+                        "RZ": 0.12217305f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.017453292f,
+                        "RY": -0.12217305f,
+                        "RZ": -0.36651915f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "b124bf8a-d8b7-4ee2-bfc0-dd3bf7d5ba8d",
+                "fae21483-ed2a-48c3-b4ac-0b032dd4d024",
+                "4e6cceb9-8666-43e8-9293-6970b1671ef0"
+            ],
+            "Id": "eaa18962-1016-4d82-a783-203afd8952c7",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Теперь, с вашего позволения, я продолжу работать"
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 900,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:fred/skins/cit1.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.48869216f,
+                        "RY": -0.24434607f,
+                        "RZ": 0.19198622f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                        "RX": -0.2617994f,
+                        "RY": -0.06981317f,
+                        "RZ": -0.22689281f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.19198619f,
+                        "RY": 0.40142563f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.4363324f,
+                        "RY": 0.4014257f,
+                        "RZ": -0.08726647f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.296706f,
+                        "RZ": 0.12217305f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.017453292f,
+                        "RY": -0.12217305f,
+                        "RZ": -0.36651915f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "d259d611-b39c-453b-8512-20ca2f8cb5ac"
+            ],
+            "Id": "c4a99d43-7c35-402d-a9fd-c842d8f6f978",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Осталось всего ничего. Мы подойдем к последней статуе, и вы сможете идти по своим делам"
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 548,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:fred/skins/cit1.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.48869216f,
+                        "RY": -0.24434607f,
+                        "RZ": 0.19198622f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                        "RX": -0.2617994f,
+                        "RY": -0.06981317f,
+                        "RZ": -0.22689281f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.54105204f,
+                        "RY": 0.2967059f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.4363324f,
+                        "RY": 0.4014257f,
+                        "RZ": -0.08726647f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.296706f,
+                        "RZ": 0.12217305f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.017453292f,
+                        "RY": -0.12217305f,
+                        "RZ": -0.36651915f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "765b2351-313c-4f96-82ce-582f219a16a6"
+            ],
+            "Id": "4f37a681-39b9-4903-a2e4-d3960a3bd1c1",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play acropolis2",
+            "X": 200,
+            "Title": "",
+            "Y": 1227,
+            "Id": "ac8c9edc-396f-4c19-8069-7652c54a67fe"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Конечно. Храм Ники Аптерос предназначался для молитв за победу в Пелопоннесской войне. 
+Конструкция храма представляет собой амфипростиль с двумя 4-колонными ионическими портиками спереди и позади здания.
+А сама Богиня Ника — это изначально крылатое божество. И отсутствие у статуи Афины-Ники крыльев привело к тому, что ее стали называть Ника Аптерос, что означает бескрылая победа, а также это стало поводом для мифа о том, что ее специально лишили крыльев, чтобы она не смогла покинуть город"
+            },
+            "X": 252,
+            "Title": "ники",
+            "Y": 171,
+            "Sound": "",
+            "Relations": [
+                "df802ac3-a426-4332-b24b-a7f7dbcea348"
+            ],
+            "Id": "b9f33301-f8d2-4e66-a983-96e24480904b",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Сколько еще будет длиться экскурсия?"
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 371,
+            "Relations": [
+                "4f37a681-39b9-4903-a2e4-d3960a3bd1c1"
+            ],
+            "Id": "df802ac3-a426-4332-b24b-a7f7dbcea348"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, я просто наслаждаюсь своим законным отпуском"
+            },
+            "X": -54,
+            "Title": "отпуск",
+            "Y": 40,
+            "Relations": [
+                "2b5ae795-8435-4cc7-925a-0f255e42b56f"
+            ],
+            "Id": "4e6cceb9-8666-43e8-9293-6970b1671ef0"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хорошо. Надеюсь, вы хоть немного слушаете "
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 202,
+            "Sound": "",
+            "Relations": [
+                "df802ac3-a426-4332-b24b-a7f7dbcea348"
+            ],
+            "Id": "2b5ae795-8435-4cc7-925a-0f255e42b56f",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "noppes npc Гид visible false",
+            "X": -57,
+            "Title": "",
+            "Y": 1305,
+            "Id": "087521d0-917c-471e-9796-6e1ae7a2f19b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Раньше там были кварталы Нижнего города. 
+А сейчас, к сожалению, нам не удастся туда попасть, его закрыли на реконструкцию
+Но вы все можете взглянуть на этот невероятный вид сверху, который и правда захватывает дух"
+            },
+            "X": -367,
+            "Title": "спуск",
+            "Y": 173,
+            "Sound": "",
+            "Relations": [
+                "df802ac3-a426-4332-b24b-a7f7dbcea348"
+            ],
+            "Id": "6dc4c1b4-d8b6-4dd9-ab5c-647bcb54acda",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Куда ведет этот спуск?"
+            },
+            "X": -364,
+            "Title": "",
+            "Y": -4,
+            "Relations": [
+                "6dc4c1b4-d8b6-4dd9-ab5c-647bcb54acda"
+            ],
+            "Id": "fae21483-ed2a-48c3-b4ac-0b032dd4d024"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Продолжить слушать)"
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 1082,
+            "Relations": [
+                "087521d0-917c-471e-9796-6e1ae7a2f19b",
+                "ac8c9edc-396f-4c19-8069-7652c54a67fe"
+            ],
+            "Id": "d259d611-b39c-453b-8512-20ca2f8cb5ac"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Могли бы вы подробнее рассказать о храме богини Ники?"
+            },
+            "X": 251,
+            "Title": "",
+            "Y": 1,
+            "Relations": [
+                "b9f33301-f8d2-4e66-a983-96e24480904b"
+            ],
+            "Id": "b124bf8a-d8b7-4ee2-bfc0-dd3bf7d5ba8d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Отлично"
+            },
+            "X": -56,
+            "Title": "",
+            "Y": 713,
+            "Relations": [
+                "c4a99d43-7c35-402d-a9fd-c842d8f6f978"
+            ],
+            "Id": "765b2351-313c-4f96-82ce-582f219a16a6"
+        }
+    ]
+}

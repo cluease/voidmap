@@ -1,0 +1,417 @@
+{
+    "Closable": 1b,
+    "Main": "db8ddefd-6e4f-4ae4-8b97-32b44a858750",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Давай без формальностей, веди уже к центру"
+            },
+            "X": 187,
+            "Title": "",
+            "Y": 33,
+            "Relations": [
+                "44f171d3-6a36-4c8c-98f2-f3146309c0c5"
+            ],
+            "Id": "8f542aa2-cd6f-49a3-9db5-71af70352195"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну ладно, можем идти, ты готова?"
+            },
+            "X": -185,
+            "Title": "",
+            "Y": 1060,
+            "Sound": "",
+            "Relations": [
+                "9286e963-0e94-4054-a64c-bc150c7b8fa4"
+            ],
+            "Id": "534d248e-8379-4588-8db0-c54931bfd936",
+            "Marker": "lucas2"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну а как иначе. Это же я тебя пригласил, нужно выглядеть соответствующе и не ударить в грязь лицом"
+            },
+            "X": -70,
+            "Title": "",
+            "Y": 363,
+            "Sound": "",
+            "Relations": [
+                "098f3a22-e635-476e-9a3f-619f0c5e89f2",
+                "825276f1-ecbe-4bc6-961b-602db5e578b9"
+            ],
+            "Id": "aa7b0902-413e-4176-bab6-ff134e966047",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Пройти до центра города)"
+            },
+            "X": 314,
+            "Title": "",
+            "Y": 351,
+            "Relations": [
+                "e90fc396-0adc-414d-8b74-0fff4eba7cc3",
+                "eefa57d9-b81a-4726-a7c1-9cae4a96ff9a"
+            ],
+            "Id": "b8a3c9a2-f160-403d-8d9f-60255ac301e0"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play lucasdate @p",
+            "X": -714,
+            "Title": "",
+            "Y": 1258,
+            "Id": "45f12f4a-10b9-4c0c-a287-08e8fa861d68"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я этого и не говорил"
+            },
+            "X": -185,
+            "Title": "",
+            "Y": 721,
+            "Sound": "",
+            "Relations": [
+                "4c81f404-aa0e-492b-bfb6-061a8f906bc9"
+            ],
+            "Id": "7b906ab2-bed2-4062-b473-c4f406cc54c9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты подготовился явно получше меня, даже костюм одел"
+            },
+            "X": -71,
+            "Title": "",
+            "Y": 112,
+            "Relations": [
+                "aa7b0902-413e-4176-bab6-ff134e966047"
+            ],
+            "Id": "e5ee9954-2ae3-4859-a2fe-6572f7bdb6e3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пойдем?"
+            },
+            "X": -421,
+            "Title": "",
+            "Y": 792,
+            "Relations": [
+                "6f21fe02-86b5-42bb-a4d1-055a1e407891"
+            ],
+            "Id": "d477a092-dc90-44b7-9091-bda73abba51d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как же"
+            },
+            "X": -187,
+            "Title": "",
+            "Y": 886,
+            "Relations": [
+                "534d248e-8379-4588-8db0-c54931bfd936"
+            ],
+            "Id": "4c81f404-aa0e-492b-bfb6-061a8f906bc9"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А, я его на распродаже купил, не обращай внимание. Но мне очень приятно"
+            },
+            "X": -422,
+            "Title": "",
+            "Y": 609,
+            "Sound": "",
+            "Relations": [
+                "d477a092-dc90-44b7-9091-bda73abba51d"
+            ],
+            "Id": "41fc3f75-58f8-4de5-81ae-18d9266f5ad9",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play lucasdate @p",
+            "X": -981,
+            "Title": "",
+            "Y": 1252,
+            "Id": "7a854299-7205-4d05-b4de-940b492b37f7"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play lucasdate @p",
+            "X": -43,
+            "Title": "",
+            "Y": 1468,
+            "Id": "065a7b15-c123-4596-8a5d-86e0a82f3e30"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не волнуйся, у нас еще весь вечер впереди"
+            },
+            "X": 150,
+            "Title": "",
+            "Y": 706,
+            "Sound": "",
+            "Relations": [
+                "69325395-9d65-426e-810b-2633d7c4d5e5"
+            ],
+            "Id": "3af68d5c-a3d3-48e8-a4f7-c900efe9b7d6",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Пройти до центра города)"
+            },
+            "X": -851,
+            "Title": "",
+            "Y": 1096,
+            "Relations": [
+                "7a854299-7205-4d05-b4de-940b492b37f7",
+                "45f12f4a-10b9-4c0c-a287-08e8fa861d68"
+            ],
+            "Id": "631d5f37-0dbb-4f3c-8fe7-6ec025c79896"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": -185,
+            "Title": "",
+            "Y": 1240,
+            "Relations": [
+                "065a7b15-c123-4596-8a5d-86e0a82f3e30",
+                "580c43c8-dffe-4aa7-b742-c69f44df4726"
+            ],
+            "Id": "9286e963-0e94-4054-a64c-bc150c7b8fa4"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "О, вот и ты! Прекрасно выглядишь"
+            },
+            "X": -64,
+            "Title": "",
+            "Y": -130,
+            "Sound": "",
+            "Relations": [
+                "77068a28-07b0-471f-86d2-768357d86af6",
+                "e5ee9954-2ae3-4859-a2fe-6572f7bdb6e3",
+                "8f542aa2-cd6f-49a3-9db5-71af70352195"
+            ],
+            "Id": "db8ddefd-6e4f-4ae4-8b97-32b44a858750",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, правда. Тебе очень идет такой стиль"
+            },
+            "X": -496,
+            "Title": "",
+            "Y": 194,
+            "Sound": "",
+            "Relations": [
+                "8fb1db17-7a1d-4fa0-b492-2ba1041b6849",
+                "9af139a2-2569-4249-8bc4-1b3f3f96f2a7"
+            ],
+            "Id": "f8905555-801a-4c29-94da-066bfa70ed18",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В таком случае, одним лишь прикидом ты меня вряд ли впечатлишь"
+            },
+            "X": 150,
+            "Title": "",
+            "Y": 545,
+            "Relations": [
+                "3af68d5c-a3d3-48e8-a4f7-c900efe9b7d6"
+            ],
+            "Id": "825276f1-ecbe-4bc6-961b-602db5e578b9"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Даже так? Ладно, как скажешь. Можем идти"
+            },
+            "X": 311,
+            "Title": "",
+            "Y": 179,
+            "Sound": "",
+            "Relations": [
+                "b8a3c9a2-f160-403d-8d9f-60255ac301e0"
+            ],
+            "Id": "44f171d3-6a36-4c8c-98f2-f3146309c0c5",
+            "Marker": "lucas3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Посмотрим"
+            },
+            "X": 150,
+            "Title": "",
+            "Y": 897,
+            "Relations": [
+                "534d248e-8379-4588-8db0-c54931bfd936"
+            ],
+            "Id": "69325395-9d65-426e-810b-2633d7c4d5e5"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "За комплименты не благодарят! Ну ладно, думаю, мы можем идти"
+            },
+            "X": -840,
+            "Title": "",
+            "Y": 616,
+            "Sound": "",
+            "Relations": [
+                "631d5f37-0dbb-4f3c-8fe7-6ec025c79896"
+            ],
+            "Id": "4b9eb08e-95b9-454a-8cb0-5a70c62d0a7b",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Конечно, можем выдвигаться"
+            },
+            "X": -657,
+            "Title": "",
+            "Y": 901,
+            "Sound": "",
+            "Relations": [
+                "631d5f37-0dbb-4f3c-8fe7-6ec025c79896"
+            ],
+            "Id": "6f21fe02-86b5-42bb-a4d1-055a1e407891",
+            "Marker": "lucas1"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play lucasdate @p",
+            "X": -370,
+            "Title": "",
+            "Y": 1469,
+            "Id": "580c43c8-dffe-4aa7-b742-c69f44df4726"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо, твой костюм тоже ничего"
+            },
+            "X": -417,
+            "Title": "",
+            "Y": 373,
+            "Relations": [
+                "41fc3f75-58f8-4de5-81ae-18d9266f5ad9"
+            ],
+            "Id": "9af139a2-2569-4249-8bc4-1b3f3f96f2a7"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Расслабься, это не свидание"
+            },
+            "X": -186,
+            "Title": "",
+            "Y": 544,
+            "Relations": [
+                "7b906ab2-bed2-4062-b473-c4f406cc54c9"
+            ],
+            "Id": "098f3a22-e635-476e-9a3f-619f0c5e89f2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо, наверное"
+            },
+            "X": -835,
+            "Title": "",
+            "Y": 382,
+            "Relations": [
+                "4b9eb08e-95b9-454a-8cb0-5a70c62d0a7b"
+            ],
+            "Id": "8fb1db17-7a1d-4fa0-b492-2ba1041b6849"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play lucasdate @p",
+            "X": 318,
+            "Title": "",
+            "Y": 508,
+            "Id": "e90fc396-0adc-414d-8b74-0fff4eba7cc3"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play lucasdate @p",
+            "X": 576,
+            "Title": "",
+            "Y": 366,
+            "Id": "eefa57d9-b81a-4726-a7c1-9cae4a96ff9a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ха-ха, не льсти, я даже не готовилась"
+            },
+            "X": -343,
+            "Title": "",
+            "Y": 25,
+            "Relations": [
+                "f8905555-801a-4c29-94da-066bfa70ed18"
+            ],
+            "Id": "77068a28-07b0-471f-86d2-768357d86af6"
+        }
+    ]
+}

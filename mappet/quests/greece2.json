@@ -1,0 +1,54 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "phone",
+                            "Marker": "marta1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "phone",
+                            "Marker": "deliver2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Позвонить по телефону",
+    "Story": "Последний раз я его видела на тумбочке у себя в комнате",
+    "Cancelable": 1b
+}

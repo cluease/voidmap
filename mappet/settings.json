@@ -1,0 +1,123 @@
+{
+    "Triggers": {
+        "entity_death": {
+            "Blocks": [
+            ]
+        },
+        "player_journal": {
+            "Blocks": [
+            ]
+        },
+        "server_tick": {
+            "Blocks": [
+            ]
+        },
+        "entity_damaged": {
+            "Blocks": [
+            ]
+        },
+        "player_lmb": {
+            "Blocks": [
+            ]
+        },
+        "block_click": {
+            "Blocks": [
+            ]
+        },
+        "block_interact": {
+            "Blocks": [
+            ]
+        },
+        "player_logout": {
+            "Blocks": [
+            ]
+        },
+        "player_rmb": {
+            "Blocks": [
+            ]
+        },
+        "player_chat": {
+            "Blocks": [
+            ]
+        },
+        "player_death": {
+            "Blocks": [
+            ]
+        },
+        "player_open_container": {
+            "Blocks": [
+            ]
+        },
+        "player_close_container": {
+            "Blocks": [
+            ]
+        },
+        "state_changed": {
+            "Blocks": [
+            ]
+        },
+        "server_load": {
+            "Blocks": [
+            ]
+        },
+        "player_respawn": {
+            "Blocks": [
+            ]
+        },
+        "block_place": {
+            "Blocks": [
+            ]
+        },
+        "living_knockback": {
+            "Blocks": [
+            ]
+        },
+        "entity_attacked": {
+            "Blocks": [
+            ]
+        },
+        "living_equipment_change": {
+            "Blocks": [
+            ]
+        },
+        "player_login": {
+            "Blocks": [
+                {
+                    "Target": {
+                        "Target": 0,
+                        "Selector": ""
+                    },
+                    "Type": "state",
+                    "State": "IMPORTANT",
+                    "Mode": 0,
+                    "Value": 0.0d,
+                    "Frequency": 1
+                }
+            ]
+        },
+        "player_item_interact": {
+            "Blocks": [
+            ]
+        },
+        "projectile_impact": {
+            "Blocks": [
+            ]
+        },
+        "block_break": {
+            "Blocks": [
+            ]
+        },
+        "player_entity_interact": {
+            "Blocks": [
+            ]
+        },
+        "player_item_pickup": {
+            "Blocks": [
+            ]
+        }
+    },
+    "Hotkeys": {
+        "Hotkeys": [
+        ]
+    }
+}

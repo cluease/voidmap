@@ -1,0 +1,63 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Встретьтесь с Лукасом на улице Пандроссу 12 ",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "lucas",
+                            "Marker": "lucas1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "lucas",
+                            "Marker": "lucas2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "lucas",
+                            "Marker": "lucas3",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Развейтесь и погуляйте по историческим улицам Греции",
+    "Story": "Лукас сказал, что в центре города сейчас проходит вечер скидок, звучит интересно",
+    "Cancelable": 0b
+}

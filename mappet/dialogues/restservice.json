@@ -1,0 +1,168 @@
+{
+    "Closable": 1b,
+    "Main": "9205d717-e6c7-4178-8ebe-16c49148ce75",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "mp state set ~ IMPORTANT 3",
+            "X": 25,
+            "Title": "",
+            "Y": 772,
+            "Id": "8834e8db-3c70-4966-af88-391b3f6fbb6c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый вечер. Мы рады вас приветствовать в ресторане \"Mira Re\". Где вы хотите расположиться? Могу предложить вам великолепное место в центре зала или уютный столик возле бара"
+            },
+            "X": 22,
+            "Title": "",
+            "Y": -76,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/resthost.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.20943944f,
+                        "RY": 0.26179937f,
+                        "RZ": -0.034906585f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RY": 0.38397244f,
+                        "RZ": -0.12217305f
+                    },
+                    "left_arm": {
+                        "RX": 0.41887897f,
+                        "RY": -0.89011794f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.22689283f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.27925268f
+                    },
+                    "low_left_arm.end": {
+                        "RZ": 0.13962634f
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "78ad0bcd-b6f1-4729-a719-21868f98c240"
+            ],
+            "Id": "9205d717-e6c7-4178-8ebe-16c49148ce75",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Конечно. Ваше имя, пожалуйста"
+            },
+            "X": 22,
+            "Title": "",
+            "Y": 279,
+            "Sound": "",
+            "Relations": [
+                "30549b9a-e117-46f2-86a9-fe65c2250e7d"
+            ],
+            "Id": "cfbc4932-af20-4dfe-b453-488a22b530e7",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Проверяет книжку) 
+Да, вижу. Ваш столик на втором этаже налево
+Приятного вечера!"
+            },
+            "X": 22,
+            "Title": "",
+            "Y": 610,
+            "Sound": "",
+            "Relations": [
+                "8834e8db-3c70-4966-af88-391b3f6fbb6c"
+            ],
+            "Id": "359570ff-231c-424d-8ab7-3bd99826b318",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо, у меня зарезервировано"
+            },
+            "X": 23,
+            "Title": "",
+            "Y": 105,
+            "Relations": [
+                "cfbc4932-af20-4dfe-b453-488a22b530e7"
+            ],
+            "Id": "78ad0bcd-b6f1-4729-a719-21868f98c240"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ханна.. Ханна Кларк"
+            },
+            "X": 22,
+            "Title": "",
+            "Y": 440,
+            "Relations": [
+                "359570ff-231c-424d-8ab7-3bd99826b318"
+            ],
+            "Id": "30549b9a-e117-46f2-86a9-fe65c2250e7d"
+        }
+    ]
+}
