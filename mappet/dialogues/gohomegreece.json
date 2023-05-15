@@ -1,0 +1,123 @@
+{
+    "Closable": 1b,
+    "Main": "f7bb0cb6-00cb-4829-9937-a005bef6f0f2",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "X": -238,
+            "Title": "tp @p 1468 72 380",
+            "Y": 244,
+            "Id": "b2f6c335-e753-4c9e-83d9-220b407927f5"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "martarest",
+                            "Marker": "marta",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -132,
+            "Title": "",
+            "Y": -68,
+            "Relations": [
+                "1ab6944b-0990-4477-b678-781d5f9aad6a"
+            ],
+            "Id": "e72e8448-e5bb-4b70-b99c-7a99a3831223"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Прежде чем отправиться домой, вы должны выполнить все задания на локации"
+            },
+            "X": 84,
+            "Title": "",
+            "Y": -90,
+            "Sound": "",
+            "Relations": [
+                "e72e8448-e5bb-4b70-b99c-7a99a3831223",
+                "09f62502-8e77-478a-bcab-4bec5e43b723"
+            ],
+            "Id": "f7bb0cb6-00cb-4829-9937-a005bef6f0f2",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться домой) после рейчэл"
+            },
+            "X": 296,
+            "Title": "после спасения рэйчел",
+            "Y": 70,
+            "Relations": [
+                "aa08727c-f32a-4d7e-9a13-c6ea0f547823"
+            ],
+            "Id": "f936c792-12f3-4cd1-a253-9781364cb446"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1270 37 387",
+            "X": 432,
+            "Title": "",
+            "Y": 218,
+            "Id": "aa08727c-f32a-4d7e-9a13-c6ea0f547823"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "rachel",
+                            "Marker": "rachel1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 302,
+            "Title": "",
+            "Y": -78,
+            "Relations": [
+                "f936c792-12f3-4cd1-a253-9781364cb446"
+            ],
+            "Id": "09f62502-8e77-478a-bcab-4bec5e43b723"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться домой) после ресторана"
+            },
+            "X": -134,
+            "Title": "после ресторана",
+            "Y": 88,
+            "Relations": [
+                "b2f6c335-e753-4c9e-83d9-220b407927f5"
+            ],
+            "Id": "1ab6944b-0990-4477-b678-781d5f9aad6a"
+        }
+    ]
+}

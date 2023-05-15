@@ -1,0 +1,60 @@
+{
+    "Closable": 1b,
+    "Main": "195b6ac6-27d0-49f0-9ba2-41d99be53c91",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Вы ложитесь на мягкую, шелковиствую кровать после тяжелого дня. Казалось бы, какие тяжелые дни? У вас же отпуск. Но для Ханны каждый день сейчас казался непростым)"
+            },
+            "X": 90,
+            "Title": "",
+            "Y": -108,
+            "Sound": "",
+            "Relations": [
+                "32f5451a-de8a-4cd8-8c26-fb181240bf7b"
+            ],
+            "Id": "195b6ac6-27d0-49f0-9ba2-41d99be53c91",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Уснуть)"
+            },
+            "X": 90,
+            "Title": "",
+            "Y": 66,
+            "Relations": [
+                "34a4706e-f1c3-4e93-9efe-1227a8b37f2d"
+            ],
+            "Id": "32f5451a-de8a-4cd8-8c26-fb181240bf7b"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "tptosamafterbed"
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 90,
+            "CustomData": "",
+            "Title": "",
+            "Y": 220,
+            "Id": "34a4706e-f1c3-4e93-9efe-1227a8b37f2d"
+        }
+    ]
+}

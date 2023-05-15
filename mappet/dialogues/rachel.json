@@ -1,0 +1,393 @@
+{
+    "Closable": 1b,
+    "Main": "77ea61d4-fb47-4ecd-8db8-517428fa54eb",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как скажешь, до скорого"
+            },
+            "X": -275,
+            "Title": "",
+            "Y": 1535,
+            "Relations": [
+                "f4e55637-dd3c-4c44-920d-e9b4c784c1dc",
+                "971c4a37-e624-4b4e-a138-f36a2c113725"
+            ],
+            "Id": "6ee1fdfe-7c5c-4a4e-8355-54a484dec982"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как же тебя угораздило?"
+            },
+            "X": -276,
+            "Title": "",
+            "Y": 351,
+            "Relations": [
+                "eb043fd3-615c-47ea-b01f-3f23320461a3"
+            ],
+            "Id": "47f1a8b7-73bc-4329-aaa7-74f4c822fca3"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да кто в такое время вообще по улицам ходит? Вот я дура, говорила же мама, что по ночам гулять опасно"
+            },
+            "X": -272,
+            "Title": "",
+            "Y": 127,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/rachel.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.6806784f,
+                        "RY": -0.24434608f,
+                        "RZ": 0.10471976f
+                    },
+                    "left_leg": {
+                        "RX": 1.5707964f,
+                        "RY": -0.17453294f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.08726647f
+                    },
+                    "left_arm": {
+                        "RX": 0.7853982f,
+                        "RY": 0.15707964f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.034906603f,
+                        "RY": -0.13962634f,
+                        "RZ": 0.45378566f
+                    },
+                    "right_leg": {
+                        "RX": 1.5707964f,
+                        "RY": 0.12217305f,
+                        "RZ": 0.08726647f
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.08726647f,
+                        "RZ": -0.64577186f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "47f1a8b7-73bc-4329-aaa7-74f4c822fca3"
+            ],
+            "Id": "c3f033d8-0997-4924-acf6-814e0d761882",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0425\\u0430\\u043d\\u043d\\u0430:\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\" \\u041c\\u043d\\u0435 \\u0431\\u044b \\u0442\\u043e\\u0436\\u0435 \\u043d\\u0435 \\u043f\\u043e\\u043c\\u0435\\u0448\\u0430\\u043b\\u043e \\u043f\\u043e\\u0439\\u0442\\u0438 \\u0434\\u043e\\u043c\\u043e\\u0439, \\u043d\\u0435 \\u0445\\u043e\\u0442\\u0435\\u043b\\u043e\\u0441\\u044c \\u0431\\u044b \\u043d\\u0430\\u0442\\u043a\\u043d\\u0443\\u0442\\u044c\\u0441\\u044f \\u043d\\u0430 \\u043f\\u043e\\u0434\\u043e\\u0431\\u043d\\u044b\\u0445 \\u0442\\u0438\\u043f\\u043e\\u0432 \\u0441\\u043d\\u043e\\u0432\\u0430\"}]",
+            "X": -470,
+            "Title": "",
+            "Y": 1693,
+            "Id": "971c4a37-e624-4b4e-a138-f36a2c113725"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "С-с-спасибо, я.. я даже не знаю, как тебя отблагодарить - сказала девушка, захлебываясь слезами"
+            },
+            "X": 0,
+            "Title": "",
+            "Y": -140,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/rachel.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 1.6406095f,
+                        "RY": -0.24434608f,
+                        "RZ": 0.10471976f
+                    },
+                    "left_leg": {
+                        "RX": 1.5707964f,
+                        "RY": -0.17453294f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.38397244f
+                    },
+                    "left_arm": {
+                        "RX": 1.7627826f,
+                        "RY": 0.15707964f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.22689281f,
+                        "RY": -0.13962634f,
+                        "RZ": 0.45378563f
+                    },
+                    "right_leg": {
+                        "RX": 1.5707964f,
+                        "RY": 0.12217305f,
+                        "RZ": 0.08726647f
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.08726647f,
+                        "RZ": -0.64577186f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "5078b0d5-f9d6-462e-a00c-c1600f8a7adc"
+            ],
+            "Id": "77ea61d4-fb47-4ecd-8db8-517428fa54eb",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ничего, они получили по заслугам"
+            },
+            "X": -278,
+            "Title": "",
+            "Y": 732,
+            "Relations": [
+                "09c5a4a3-d44b-482d-9821-88d520042abb"
+            ],
+            "Id": "3bf83193-4c34-4faf-919b-ab29e85ba8f0"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я просто спокойно сидела на скамейке и слушала музыку, как вдруг ко мне подошли эти... и стали угрожать, что если я не пойду с ними, то мне несдобровать. Я не послушала, и дала дёру. Надеялась оторваться, но они меня загнали в тупик"
+            },
+            "X": -276,
+            "Title": "",
+            "Y": 513,
+            "Sound": "",
+            "Relations": [
+                "3bf83193-4c34-4faf-919b-ab29e85ba8f0"
+            ],
+            "Id": "eb043fd3-615c-47ea-b01f-3f23320461a3",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Поднявшись и отряхнувшись от пыли, девушка сказала: \"Благодаря тебе, еще раз огромное спасибо за спасение. Меня кстати Рэйчел зовут. Вот мой номер, звони, если что, а я наверное пойду\""
+            },
+            "X": -282,
+            "Title": "",
+            "Y": 924,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/rachel.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RY": 0.36651915f,
+                        "RZ": 0.17453294f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "fcb6761f-b3be-4531-9dc1-20057701dd5c"
+            ],
+            "Id": "09c5a4a3-d44b-482d-9821-88d520042abb",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "noppes npc Рэйчел visible false",
+            "X": -114,
+            "Title": "",
+            "Y": 1688,
+            "Id": "f4e55637-dd3c-4c44-920d-e9b4c784c1dc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не стоит, на моем месте мог бы быть каждый"
+            },
+            "X": -194,
+            "Title": "",
+            "Y": -15,
+            "Relations": [
+                "c3f033d8-0997-4924-acf6-814e0d761882"
+            ],
+            "Id": "5078b0d5-f9d6-462e-a00c-c1600f8a7adc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, тебя провести до дома?"
+            },
+            "X": -278,
+            "Title": "",
+            "Y": 1138,
+            "Relations": [
+                "905bea63-38ba-42d6-9c74-568522f94823"
+            ],
+            "Id": "fcb6761f-b3be-4531-9dc1-20057701dd5c"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что ты, не стоит, ты и так достаточно для меня сделала. Тем более мой дом не так далеко, постараюсь больше не нарываться на неприятности"
+            },
+            "X": -278,
+            "Title": "",
+            "Y": 1330,
+            "Sound": "",
+            "Relations": [
+                "6ee1fdfe-7c5c-4a4e-8355-54a484dec982"
+            ],
+            "Id": "905bea63-38ba-42d6-9c74-568522f94823",
+            "Marker": "rachel1"
+        }
+    ]
+}

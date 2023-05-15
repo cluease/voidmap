@@ -1,0 +1,61 @@
+{
+    "Closable": 1b,
+    "Main": "0197164c-9fb1-48f7-b138-65b6d5fd9964",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "tp @p 1270 37 387",
+            "X": -268,
+            "Title": "",
+            "Y": 220,
+            "Id": "0a6dc1c4-1bcb-4035-9af0-85b9128a2f94"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы действительно хотите отправиться домой? Данный выбор повлияет на ваше дальнейшее прохождение"
+            },
+            "X": 16,
+            "Title": "",
+            "Y": -64,
+            "Sound": "",
+            "Relations": [
+                "566f313d-9d42-459b-92a8-fc11623c7d94",
+                "cd6bb99f-ee05-4847-a1da-b402d15cccfc"
+            ],
+            "Id": "0197164c-9fb1-48f7-b138-65b6d5fd9964",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Сделать выбор)"
+            },
+            "X": -106,
+            "Title": "",
+            "Y": 78,
+            "Relations": [
+                "0a6dc1c4-1bcb-4035-9af0-85b9128a2f94"
+            ],
+            "Id": "566f313d-9d42-459b-92a8-fc11623c7d94"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Подумать еще)"
+            },
+            "X": 114,
+            "Title": "",
+            "Y": 74,
+            "Id": "cd6bb99f-ee05-4847-a1da-b402d15cccfc"
+        }
+    ]
+}

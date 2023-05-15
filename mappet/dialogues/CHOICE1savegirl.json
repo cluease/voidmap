@@ -1,0 +1,70 @@
+{
+    "Closable": 1b,
+    "Main": "890495d8-1652-4a70-af98-57dabd0566dd",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "scene play rachel2 @p",
+            "X": -301,
+            "Title": "",
+            "Y": 278,
+            "Id": "51a58ba4-d76b-4397-932c-6a4b44f34599"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play rachel @p",
+            "X": -13,
+            "Title": "",
+            "Y": 278,
+            "Id": "15045ca6-483a-4d48-bb71-037376d02161"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы действительно хотите помочь девушке? Данный выбор повлияет на ваше дальнейшее прохождение"
+            },
+            "X": 20,
+            "Title": "",
+            "Y": -66,
+            "Sound": "",
+            "Relations": [
+                "8bdd7d6e-4b3c-4591-8891-00018e70a3d9",
+                "8820dbd0-e39d-4d78-a0ff-8c840ca8df33"
+            ],
+            "Id": "890495d8-1652-4a70-af98-57dabd0566dd",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Подумать еще)"
+            },
+            "X": 160,
+            "Title": "",
+            "Y": 87,
+            "Id": "8820dbd0-e39d-4d78-a0ff-8c840ca8df33"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Сделать выбор)"
+            },
+            "X": -116,
+            "Title": "",
+            "Y": 89,
+            "Relations": [
+                "51a58ba4-d76b-4397-932c-6a4b44f34599",
+                "15045ca6-483a-4d48-bb71-037376d02161"
+            ],
+            "Id": "8bdd7d6e-4b3c-4591-8891-00018e70a3d9"
+        }
+    ]
+}

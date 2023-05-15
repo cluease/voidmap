@@ -1,0 +1,62 @@
+{
+    "Main": "572b1ddf-c905-4e6a-8a89-cfbea362a30d",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/execute @p ~ ~ ~ /setblock 694 6 643 minecraft:redstone_block",
+            "X": 190,
+            "Title": "скин Сэма",
+            "Y": 251,
+            "Id": "f17cef3a-3a18-4df9-b2a2-48e5a59bd93b"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 695 8 643",
+            "X": -8,
+            "Title": "",
+            "Y": 308,
+            "Id": "4435b9fe-5c26-4e94-8098-95bb645ea3e5"
+        },
+        {
+            "Type": "command",
+            "Command": "effect @p blindness 10 10 true",
+            "X": -4,
+            "Title": "",
+            "Y": -34,
+            "Relations": [
+                "2edd91ef-c7b2-4b3e-8969-025331705db0",
+                "5ba98186-909f-438f-995a-b0d99e11535b"
+            ],
+            "Id": "572b1ddf-c905-4e6a-8a89-cfbea362a30d"
+        },
+        {
+            "Type": "timer",
+            "Timer": 180,
+            "X": -6,
+            "Title": "",
+            "Y": 134,
+            "Relations": [
+                "4435b9fe-5c26-4e94-8098-95bb645ea3e5",
+                "f17cef3a-3a18-4df9-b2a2-48e5a59bd93b",
+                "0f1dfde3-9f8d-4364-84b7-cc9849062c2a"
+            ],
+            "Id": "2edd91ef-c7b2-4b3e-8969-025331705db0"
+        },
+        {
+            "Type": "command",
+            "Command": "time set 200",
+            "X": -245,
+            "Title": "время",
+            "Y": 258,
+            "Id": "0f1dfde3-9f8d-4364-84b7-cc9849062c2a"
+        },
+        {
+            "Type": "command",
+            "Command": "effect @p slowness 10 200 true",
+            "X": 318,
+            "Title": "",
+            "Y": -27,
+            "Id": "5ba98186-909f-438f-995a-b0d99e11535b"
+        }
+    ]
+}

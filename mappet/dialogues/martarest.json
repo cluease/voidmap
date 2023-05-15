@@ -1218,7 +1218,7 @@
             "Marker": ""
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -1232,7 +1232,7 @@
                 "7aaf8313-bb8d-4d1d-817b-24f7876537d4"
             ],
             "Id": "6c326c13-c436-428f-85c6-058a1525bd15",
-            "Marker": ""
+            "Marker": "marta"
         },
         {
             "Type": "reply",
