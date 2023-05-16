@@ -38,6 +38,100 @@
                             "Value": 1.0d,
                             "Id": "IMPORTANT",
                             "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 2,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "blockbuster:gun",
+                                "Count": 1b,
+                                "tag": {
+                                    "Gun": {
+                                        "Impact": {
+                                            "Type": "cloud",
+                                            "Movement": "in",
+                                            "Frequency": 5,
+                                            "Duration": 15,
+                                            "Name": "particle"
+                                        },
+                                        "InventoryMorph": {
+                                            "Texture": "b.a:image/skins/spray.png",
+                                            "Name": "blockbuster.image"
+                                        },
+                                        "Speed": 0.75f,
+                                        "Gun": {
+                                            "P": [
+                                                0.0f,
+                                                0.625f,
+                                                0.0625f
+                                            ],
+                                            "S": [
+                                                0.5f,
+                                                0.5f,
+                                                0.5f
+                                            ]
+                                        },
+                                        "Hits": 0,
+                                        "PreventLeftClick": 1b,
+                                        "BFactor": 0.0f,
+                                        "Projectile": {
+                                            "Type": "cloud",
+                                            "Movement": "in",
+                                            "Frequency": 5,
+                                            "Duration": 20,
+                                            "Count": 15,
+                                            "Name": "particle"
+                                        },
+                                        "HX": 2.25f,
+                                        "Vanish": 0b,
+                                        "HY": 2.25f,
+                                        "Fire": {
+                                            "Name": "item",
+                                            "Stack": {
+                                                "ForgeCaps": {
+                                                    "customnpcs:itemscripteddata": {
+                                                    }
+                                                },
+                                                "id": "variedcommodities:artifact",
+                                                "Count": 1b,
+                                                "Damage": 0s
+                                            }
+                                        },
+                                        "UseInventoryMorph": 1b,
+                                        "FadeIn": 0,
+                                        "FadeOut": 0,
+                                        "Morph": {
+                                            "Name": "item",
+                                            "Stack": {
+                                                "ForgeCaps": {
+                                                    "customnpcs:itemscripteddata": {
+                                                    }
+                                                },
+                                                "id": "variedcommodities:artifact",
+                                                "Count": 1b,
+                                                "Damage": 0s
+                                            }
+                                        },
+                                        "Damage": 0.25f
+                                    },
+                                    "display": {
+                                        "Lore": [
+                                            "§fНикогда не знаешь, когда можешь угодить в неприятности"
+                                        ],
+                                        "Name": "§e§lПерцовый баллончик"
+                                    }
+                                },
+                                "Damage": 0s
+                            }
                         }
                     ]
                 },
@@ -267,6 +361,32 @@
                             "Id": "phone",
                             "Marker": "lucasaccept",
                             "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 2,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:money",
+                                "Count": 6b,
+                                "tag": {
+                                    "display": {
+                                        "Lore": [
+                                            "§fТак мало, но так много можно всего купить"
+                                        ],
+                                        "Name": "§2§a§l5 евро"
+                                    }
+                                },
+                                "Damage": 0s
+                            }
                         }
                     ]
                 },

@@ -1,5 +1,5 @@
 {
-    "Closable": 0b,
+    "Closable": 1b,
     "Main": "ddee9724-6683-4ce0-9c90-77ee60278cc5",
     "OnClose": {
         "Blocks": [

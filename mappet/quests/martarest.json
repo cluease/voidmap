@@ -1,0 +1,23 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 0b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+    ],
+    "Title": "",
+    "Story": "",
+    "Cancelable": 1b
+}
