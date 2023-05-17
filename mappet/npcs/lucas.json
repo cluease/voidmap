@@ -1,5 +1,428 @@
 {
     "States": {
+        "lucasstay": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Placeholder": {
+                    "Placeholder": {
+                        "UserData": {
+                            "Meshes": {
+                                "body": {
+                                    "Filtering": "nearest",
+                                    "Normals": 1b,
+                                    "Lighting": 1b,
+                                    "Color": 16777215,
+                                    "Smooth": 1b,
+                                    "Visible": 1b,
+                                    "Texture": "b.a:alex/skins/tourist1date.png"
+                                }
+                            }
+                        },
+                        "Pose": {
+                            "low_body": {
+                                "RX": -0.06981317f,
+                                "RY": 0.034906585f
+                            },
+                            "right_arm": {
+                                "RX": 0.3839724f,
+                                "RY": -0.0872665f,
+                                "RZ": 0.15707964f
+                            },
+                            "left_leg": {
+                                "RX": -0.2443461f
+                            },
+                            "misc_bone_1": {
+                            },
+                            "misc_bone_2": {
+                            },
+                            "misc_bone_3": {
+                            },
+                            "low_leg_right": {
+                                "RX": -0.296706f
+                            },
+                            "low_right_arm.end": {
+                            },
+                            "misc_gbone_2": {
+                            },
+                            "misc_gbone_1": {
+                            },
+                            "body": {
+                                "RX": 0.2617994f
+                            },
+                            "misc_gbone_3": {
+                            },
+                            "head": {
+                                "RX": 0.40142575f,
+                                "RY": 0.19198622f,
+                                "RZ": 0.13962634f
+                            },
+                            "left_arm": {
+                                "RX": 1.0821042f,
+                                "RY": 0.40142566f,
+                                "RZ": -0.19198622f
+                            },
+                            "low_right_arm": {
+                                "RZ": 0.8377581f
+                            },
+                            "right_leg": {
+                                "RX": 0.17453294f,
+                                "RY": 0.27925268f,
+                                "RZ": -0.017453292f
+                            },
+                            "anchor": {
+                                "RX": 0.017453292f,
+                                "Y": -0.1875f
+                            },
+                            "low_left_leg": {
+                                "RX": -0.15707965f
+                            },
+                            "low_left_arm": {
+                                "RZ": -0.8028515f
+                            },
+                            "low_left_arm.end": {
+                            }
+                        },
+                        "Animation": "slim_3d",
+                        "Name": "emoticons.slim_3d"
+                    },
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/tourist1date.png"
+                            }
+                        }
+                    },
+                    "Pose": {
+                        "low_body": {
+                            "RX": -0.06981317f,
+                            "RY": 0.034906585f
+                        },
+                        "right_arm": {
+                            "RX": 0.3839724f,
+                            "RY": -0.0872665f,
+                            "RZ": 0.15707964f
+                        },
+                        "left_leg": {
+                            "RX": -0.2443461f
+                        },
+                        "misc_bone_1": {
+                        },
+                        "misc_bone_2": {
+                        },
+                        "misc_bone_3": {
+                        },
+                        "low_leg_right": {
+                            "RX": -0.296706f
+                        },
+                        "low_right_arm.end": {
+                        },
+                        "misc_gbone_2": {
+                        },
+                        "misc_gbone_1": {
+                        },
+                        "body": {
+                            "RX": 0.2617994f
+                        },
+                        "misc_gbone_3": {
+                        },
+                        "head": {
+                            "RX": 0.40142575f,
+                            "RY": 0.19198622f,
+                            "RZ": 0.13962634f
+                        },
+                        "left_arm": {
+                            "RX": 1.0821042f,
+                            "RY": 0.40142566f,
+                            "RZ": -0.19198622f
+                        },
+                        "low_right_arm": {
+                            "RZ": 0.8377581f
+                        },
+                        "right_leg": {
+                            "RX": 0.17453294f,
+                            "RY": 0.27925268f,
+                            "RZ": -0.017453292f
+                        },
+                        "anchor": {
+                            "RX": 0.017453292f,
+                            "Y": -0.1875f
+                        },
+                        "low_left_leg": {
+                            "RX": -0.15707965f
+                        },
+                        "low_left_arm": {
+                            "RZ": -0.8028515f
+                        },
+                        "low_left_arm.end": {
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 2.3f
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": -0.06981317f,
+                        "RY": 0.034906585f
+                    },
+                    "right_arm": {
+                        "RX": 0.3839724f,
+                        "RY": -0.0872665f,
+                        "RZ": 0.15707964f
+                    },
+                    "left_leg": {
+                        "RX": -0.2443461f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -0.296706f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.2617994f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.40142575f,
+                        "RY": 0.19198622f,
+                        "RZ": 0.13962634f
+                    },
+                    "left_arm": {
+                        "RX": 1.0821042f,
+                        "RY": 0.40142566f,
+                        "RZ": -0.19198622f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.8377581f
+                    },
+                    "right_leg": {
+                        "RX": 0.17453294f,
+                        "RY": 0.27925268f,
+                        "RZ": -0.017453292f
+                    },
+                    "anchor": {
+                        "RX": 0.017453292f,
+                        "RZ": -1.5707964f,
+                        "Y": -0.1875f
+                    },
+                    "low_left_leg": {
+                        "RX": -0.15707965f
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.8028515f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "lucas",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 0b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "lucas",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "lucasdel": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 0b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
         "follow": {
             "RespawnSaveUUID": 0b,
             "TriggerRespawn": {
@@ -74,7 +497,7 @@
             "Id": "",
             "PatrolCirculate": 0b,
             "DamageDelay": 10,
-            "CanGetBurned": 1b,
+            "CanGetBurned": 0b,
             "Wander": 0b,
             "RespawnOnCoordinates": 0b,
             "LookAround": 1b,

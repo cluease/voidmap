@@ -8,10 +8,19 @@
     "Nodes": [
         {
             "Type": "command",
+            "Command": "tp @p 1468 72 380",
             "X": -238,
-            "Title": "tp @p 1468 72 380",
+            "Title": "",
             "Y": 244,
             "Id": "b2f6c335-e753-4c9e-83d9-220b407927f5"
+        },
+        {
+            "Type": "command",
+            "Command": "time set night",
+            "X": -44,
+            "Title": "",
+            "Y": 246,
+            "Id": "28e4b9b6-2793-458c-a55a-025b5e0464fd"
         },
         {
             "Condition": {
@@ -115,7 +124,8 @@
             "Title": "после ресторана",
             "Y": 88,
             "Relations": [
-                "b2f6c335-e753-4c9e-83d9-220b407927f5"
+                "b2f6c335-e753-4c9e-83d9-220b407927f5",
+                "28e4b9b6-2793-458c-a55a-025b5e0464fd"
             ],
             "Id": "1ab6944b-0990-4477-b678-781d5f9aad6a"
         }

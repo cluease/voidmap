@@ -282,6 +282,14 @@
             "Id": "d8575d73-08d4-4a76-a139-91786acc5b0f"
         },
         {
+            "Type": "command",
+            "Command": "mp state add ~ frank&polly 1",
+            "X": 996,
+            "Title": "",
+            "Y": -6,
+            "Id": "46a5ef9c-1e74-434a-80c9-3af2c560d5f8"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -291,7 +299,9 @@
             "Title": "",
             "Y": 25,
             "Relations": [
-                "650ec40b-98fe-41ec-bf27-9d4419c93fb5"
+                "650ec40b-98fe-41ec-bf27-9d4419c93fb5",
+                "46a5ef9c-1e74-434a-80c9-3af2c560d5f8",
+                "72eaf2ee-0ef1-465b-b90f-d7e95b2ca2ff"
             ],
             "Id": "f6c1d02c-01c9-448c-8903-0346d6f25e7a"
         },
@@ -577,6 +587,13 @@
                 "ac4d0aa7-d2db-4db2-92e3-1e932dda5d9b"
             ],
             "Id": "d4251099-3490-45bc-bfbe-feda758bdec7"
+        },
+        {
+            "Type": "command",
+            "X": 688,
+            "Title": "time set 12000",
+            "Y": 173,
+            "Id": "72eaf2ee-0ef1-465b-b90f-d7e95b2ca2ff"
         },
         {
             "Condition": {

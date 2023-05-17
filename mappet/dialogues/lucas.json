@@ -227,6 +227,168 @@
             "X": -64,
             "Title": "",
             "Y": -130,
+            "Morph": {
+                "Placeholder": {
+                    "UserData": {
+                        "Meshes": {
+                            "body": {
+                                "Filtering": "nearest",
+                                "Normals": 1b,
+                                "Lighting": 1b,
+                                "Color": 16777215,
+                                "Smooth": 1b,
+                                "Visible": 1b,
+                                "Texture": "b.a:alex/skins/tourist1date.png"
+                            }
+                        }
+                    },
+                    "Pose": {
+                        "low_body": {
+                            "RX": -0.06981317f,
+                            "RY": 0.034906585f
+                        },
+                        "right_arm": {
+                            "RX": 0.3839724f,
+                            "RY": -0.0872665f,
+                            "RZ": 0.15707964f
+                        },
+                        "left_leg": {
+                            "RX": -0.2443461f
+                        },
+                        "misc_bone_1": {
+                        },
+                        "misc_bone_2": {
+                        },
+                        "misc_bone_3": {
+                        },
+                        "low_leg_right": {
+                            "RX": -0.296706f
+                        },
+                        "low_right_arm.end": {
+                        },
+                        "misc_gbone_2": {
+                        },
+                        "misc_gbone_1": {
+                        },
+                        "body": {
+                            "RX": 0.2617994f
+                        },
+                        "misc_gbone_3": {
+                        },
+                        "head": {
+                            "RX": 0.40142575f,
+                            "RY": 0.19198622f,
+                            "RZ": 0.13962634f
+                        },
+                        "left_arm": {
+                            "RX": 1.0821042f,
+                            "RY": 0.40142566f,
+                            "RZ": -0.19198622f
+                        },
+                        "low_right_arm": {
+                            "RZ": 0.8377581f
+                        },
+                        "right_leg": {
+                            "RX": 0.17453294f,
+                            "RY": 0.27925268f,
+                            "RZ": -0.017453292f
+                        },
+                        "anchor": {
+                            "RX": 0.017453292f,
+                            "Y": -0.1875f
+                        },
+                        "low_left_leg": {
+                            "RX": -0.15707965f
+                        },
+                        "low_left_arm": {
+                            "RZ": -0.8028515f
+                        },
+                        "low_left_arm.end": {
+                        }
+                    },
+                    "Animation": "slim_3d",
+                    "Name": "emoticons.slim_3d"
+                },
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": -0.06981317f,
+                        "RY": 0.034906585f
+                    },
+                    "right_arm": {
+                        "RX": 0.3839724f,
+                        "RY": -0.0872665f,
+                        "RZ": 0.15707964f
+                    },
+                    "left_leg": {
+                        "RX": -0.2443461f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -0.296706f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.2617994f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.40142575f,
+                        "RY": 0.19198622f,
+                        "RZ": 0.13962634f
+                    },
+                    "left_arm": {
+                        "RX": 1.0821042f,
+                        "RY": 0.40142566f,
+                        "RZ": -0.19198622f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.8377581f
+                    },
+                    "right_leg": {
+                        "RX": 0.17453294f,
+                        "RY": 0.27925268f,
+                        "RZ": -0.017453292f
+                    },
+                    "anchor": {
+                        "RX": 0.017453292f,
+                        "Y": -0.1875f
+                    },
+                    "low_left_leg": {
+                        "RX": -0.15707965f
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.8028515f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
             "Sound": "",
             "Relations": [
                 "77068a28-07b0-471f-86d2-768357d86af6",

@@ -1,6 +1,6 @@
 {
     "Closable": 1b,
-    "Main": "195b6ac6-27d0-49f0-9ba2-41d99be53c91",
+    "Main": "df4d00ab-1ca6-4144-b5aa-cb653f8a17f4",
     "OnClose": {
         "Blocks": [
         ]
@@ -22,6 +22,34 @@
             ],
             "Id": "195b6ac6-27d0-49f0-9ba2-41d99be53c91",
             "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 3.0d,
+                            "Id": "IMPORTANT",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 90,
+            "Title": "",
+            "Y": -274,
+            "Relations": [
+                "195b6ac6-27d0-49f0-9ba2-41d99be53c91"
+            ],
+            "Id": "df4d00ab-1ca6-4144-b5aa-cb653f8a17f4"
         },
         {
             "Type": "reply",

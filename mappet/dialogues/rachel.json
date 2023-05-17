@@ -117,6 +117,9 @@
                     "low_left_arm.end": {
                     }
                 },
+                "Transition": {
+                    "Animates": 1b
+                },
                 "Animation": "slim_3d",
                 "Name": "emoticons.slim_3d"
             },
@@ -216,6 +219,9 @@
                     },
                     "low_left_arm.end": {
                     }
+                },
+                "Transition": {
+                    "Animates": 1b
                 },
                 "Animation": "slim_3d",
                 "Name": "emoticons.slim_3d"
@@ -325,6 +331,9 @@
                     },
                     "low_left_arm.end": {
                     }
+                },
+                "Transition": {
+                    "Animates": 1b
                 },
                 "Animation": "slim_3d",
                 "Name": "emoticons.slim_3d"

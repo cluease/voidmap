@@ -7,18 +7,91 @@
     },
     "Nodes": [
         {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, вы и правы... но... ах, я боюсь, что сделаю только хуже"
+            },
+            "X": -703,
+            "Title": "",
+            "Y": 1129,
+            "Sound": "",
+            "Relations": [
+                "907f7a0e-b64e-41a5-84a9-1de0edac3c6e"
+            ],
+            "Id": "bac4203f-df80-474b-85f7-441a5f7c4162",
+            "Marker": ""
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "Я думаю, тебе стоит выбрать жену"
+                "Text": "(Что ж, я сама в это ввязалась. Нужно спросить у жены, что она об этом думает)"
             },
-            "X": 380,
+            "X": 80,
             "Title": "",
-            "Y": 1224,
+            "Y": 1578,
+            "Id": "c559348b-3eed-439c-85e9-303b09dffb6a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Издержки профессии"
+            },
+            "X": -1108,
+            "Title": "",
+            "Y": 1913,
             "Relations": [
-                "983a2ac7-2a65-45a9-8851-53a1be22b058"
+                "d1a3e605-1bc7-4fce-9550-1d9eb09146a2",
+                "b72de7c2-0f4f-4241-a70d-9f83df12294a",
+                "1d8cde99-11fb-4e2f-b472-0ba1dc22f72a",
+                "fba05ff5-31d1-4ba4-887b-0285eea59b99"
             ],
-            "Id": "735d8396-21a2-4d40-a1f3-4f8099961ead"
+            "Id": "f27cdd25-8969-4589-a155-6cd0474a0fba"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ничего, мне не в первой"
+            },
+            "X": 74,
+            "Title": "",
+            "Y": 416,
+            "Relations": [
+                "9d245620-0ab3-4287-9282-d7455ff72aa2"
+            ],
+            "Id": "0dd411f8-6121-476b-8308-736db433b33f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Кратко пересказать)"
+            },
+            "X": -426,
+            "Title": "",
+            "Y": 386,
+            "Relations": [
+                "24fb4f7f-9f63-41b9-9749-8515c3bbcd4c"
+            ],
+            "Id": "e32244e5-5ff7-4735-8c98-d8a5919ad8b3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Поверьте, хуже чем сейчас - уже вряд ли будет"
+            },
+            "X": -1105,
+            "Title": "",
+            "Y": 1245,
+            "Relations": [
+                "690e4b19-ce09-4d7c-9d7a-a85a9e538846"
+            ],
+            "Id": "907f7a0e-b64e-41a5-84a9-1de0edac3c6e"
         },
         {
             "Read": 0b,
@@ -36,6 +109,121 @@
             ],
             "Id": "0d99bc9f-56c8-410f-90c3-e6a0048b193b",
             "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "noppes npc Фрэнк visible false",
+            "X": -907,
+            "Title": "",
+            "Y": 2021,
+            "Id": "d1a3e605-1bc7-4fce-9550-1d9eb09146a2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я думаю, тебе стоит выбрать магазин"
+            },
+            "X": -193,
+            "Title": "",
+            "Y": 1224,
+            "Relations": [
+                "0597db4f-202d-4f32-afc0-7b921fc7b3ef"
+            ],
+            "Id": "849f42d5-fa38-469d-b5bc-748f48c3f94c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "wifepolly",
+                            "Marker": "polly1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -426,
+            "Title": "",
+            "Y": -154,
+            "Relations": [
+                "eeb075e6-602b-404a-aff5-9e9d917247f0"
+            ],
+            "Id": "a777affc-d559-45ce-afd2-2c6b9ed0c666"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Верно. Я прямо сейчас пойду и извинюсь перед ней! "
+            },
+            "X": -1106,
+            "Title": "",
+            "Y": 1421,
+            "Sound": "",
+            "Relations": [
+                "0848e1d9-615c-4bb5-bc3e-9b47b2136976"
+            ],
+            "Id": "690e4b19-ce09-4d7c-9d7a-a85a9e538846",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play frank&polly2 @p",
+            "X": -1340,
+            "Title": "",
+            "Y": 2029,
+            "Id": "1d8cde99-11fb-4e2f-b472-0ba1dc22f72a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Полли попросила вам кое-что передать"
+            },
+            "X": -428,
+            "Title": "послеПолли",
+            "Y": 68,
+            "Relations": [
+                "0f4efe4a-e211-4806-9bd1-c2319fa22223"
+            ],
+            "Id": "eeb075e6-602b-404a-aff5-9e9d917247f0"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Некоторые вещи в отношениях лучше проговаривать вслух, чтобы не случалось подобных ситуаций"
+            },
+            "X": -567,
+            "Title": "",
+            "Y": 981,
+            "Relations": [
+                "bac4203f-df80-474b-85f7-441a5f7c4162"
+            ],
+            "Id": "0cdc6692-e976-47bd-9c77-99dfbd4c55c1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я думаю, тебе стоит выбрать жену"
+            },
+            "X": 380,
+            "Title": "",
+            "Y": 1224,
+            "Relations": [
+                "983a2ac7-2a65-45a9-8851-53a1be22b058"
+            ],
+            "Id": "735d8396-21a2-4d40-a1f3-4f8099961ead"
         },
         {
             "Read": 0b,
@@ -74,6 +262,110 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "scene play frank&polly2 @p",
+            "X": -1278,
+            "Title": "",
+            "Y": 2183,
+            "Id": "fba05ff5-31d1-4ba4-887b-0285eea59b99"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И что же пошло не так?"
+            },
+            "X": 72,
+            "Title": "",
+            "Y": 831,
+            "Relations": [
+                "fd811cc1-fced-464e-89f0-a692dc441927"
+            ],
+            "Id": "7b020e79-b2d4-4436-9a0d-afb1c0ec626a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Далее)"
+            },
+            "X": -1108,
+            "Title": "",
+            "Y": 1600,
+            "Relations": [
+                "bf526a22-378d-49b6-ba5e-d0187e41577d"
+            ],
+            "Id": "0848e1d9-615c-4bb5-bc3e-9b47b2136976"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А разве это не очевидно?"
+            },
+            "X": -428,
+            "Title": "",
+            "Y": 854,
+            "Sound": "",
+            "Relations": [
+                "0cdc6692-e976-47bd-9c77-99dfbd4c55c1"
+            ],
+            "Id": "9fadd09c-c428-4d1a-a708-0625980ef787",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r А ты хорошо разбираешься в людях, я приятно удивлен"
+            },
+            "X": -1108,
+            "Title": "",
+            "Y": 1756,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "f27cdd25-8969-4589-a155-6cd0474a0fba"
+            ],
+            "Id": "bf526a22-378d-49b6-ba5e-d0187e41577d",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И что же?"
+            },
+            "X": -426,
+            "Title": "",
+            "Y": 232,
+            "Sound": "",
+            "Relations": [
+                "e32244e5-5ff7-4735-8c98-d8a5919ad8b3"
+            ],
+            "Id": "0f4efe4a-e211-4806-9bd1-c2319fa22223",
+            "Marker": ""
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -105,49 +397,37 @@
             },
             "Sound": "",
             "Relations": [
-                "aa6f1571-b9fd-415e-8e32-d787007b158a"
+                "aa6f1571-b9fd-415e-8e32-d787007b158a",
+                "a777affc-d559-45ce-afd2-2c6b9ed0c666"
             ],
             "Id": "6281cbf4-fefe-4d8b-994c-d8e9553dcd2b",
             "Marker": ""
         },
         {
-            "Type": "reply",
+            "Read": 0b,
+            "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "И что же пошло не так?"
+                "Text": "Это возмутительно! Я никогда не отрицал факт ее вложений в наш бизнес
+Да, может быть последнее время я был слегка холоден к Полли, но это лишь потому, что сейчас наш магазин переживает трудное время и я все свои силы трачу на то, чтобы все было как прежде! Она должна знать, что я ее по прежнему все так же люблю"
             },
-            "X": 72,
+            "X": -424,
             "Title": "",
-            "Y": 831,
+            "Y": 538,
+            "Sound": "",
             "Relations": [
-                "fd811cc1-fced-464e-89f0-a692dc441927"
+                "3f23e850-d471-40d8-8722-05f605230c94"
             ],
-            "Id": "7b020e79-b2d4-4436-9a0d-afb1c0ec626a"
+            "Id": "24fb4f7f-9f63-41b9-9749-8515c3bbcd4c",
+            "Marker": ""
         },
         {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Я думаю, тебе стоит выбрать магазин"
-            },
-            "X": -193,
+            "Type": "command",
+            "Command": "noppes npc Полли visible false",
+            "X": -903,
             "Title": "",
-            "Y": 1224,
-            "Relations": [
-                "0597db4f-202d-4f32-afc0-7b921fc7b3ef"
-            ],
-            "Id": "849f42d5-fa38-469d-b5bc-748f48c3f94c"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Что ж, я сама в это ввязалась. Нужно спросить у жены, что она об этом думает)"
-            },
-            "X": 80,
-            "Title": "",
-            "Y": 1578,
-            "Id": "c559348b-3eed-439c-85e9-303b09dffb6a"
+            "Y": 2184,
+            "Id": "b72de7c2-0f4f-4241-a70d-9f83df12294a"
         },
         {
             "Type": "reply",
@@ -164,7 +444,21 @@
             "Id": "aa6f1571-b9fd-415e-8e32-d787007b158a"
         },
         {
-            "Read": 0b,
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, вы просто этого не показывали?"
+            },
+            "X": -424,
+            "Title": "",
+            "Y": 700,
+            "Relations": [
+                "9fadd09c-c428-4d1a-a708-0625980ef787"
+            ],
+            "Id": "3f23e850-d471-40d8-8722-05f605230c94"
+        },
+        {
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -178,38 +472,24 @@
                 "c559348b-3eed-439c-85e9-303b09dffb6a"
             ],
             "Id": "983a2ac7-2a65-45a9-8851-53a1be22b058",
-            "Marker": ""
+            "Marker": "fr2"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
                 "Text": "Но.. Я так не могу, мы столько пережили вместе и я.. я сильно ее люблю"
             },
-            "X": -315,
+            "X": -312,
             "Title": "",
-            "Y": 1409,
+            "Y": 1406,
             "Sound": "",
             "Relations": [
                 "c559348b-3eed-439c-85e9-303b09dffb6a"
             ],
             "Id": "0597db4f-202d-4f32-afc0-7b921fc7b3ef",
-            "Marker": ""
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Ничего, мне не в первой"
-            },
-            "X": 74,
-            "Title": "",
-            "Y": 416,
-            "Relations": [
-                "9d245620-0ab3-4287-9282-d7455ff72aa2"
-            ],
-            "Id": "0dd411f8-6121-476b-8308-736db433b33f"
+            "Marker": "fr1"
         }
     ]
 }
