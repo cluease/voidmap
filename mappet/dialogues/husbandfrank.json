@@ -40,12 +40,10 @@
                 "Color": 16777215,
                 "Text": "Издержки профессии"
             },
-            "X": -1108,
+            "X": -1110,
             "Title": "",
             "Y": 1913,
             "Relations": [
-                "d1a3e605-1bc7-4fce-9550-1d9eb09146a2",
-                "b72de7c2-0f4f-4241-a70d-9f83df12294a",
                 "1d8cde99-11fb-4e2f-b472-0ba1dc22f72a",
                 "fba05ff5-31d1-4ba4-887b-0285eea59b99"
             ],
@@ -112,10 +110,10 @@
         },
         {
             "Type": "command",
-            "Command": "noppes npc Фрэнк visible false",
-            "X": -907,
+            "Command": "execute @p ~ ~ ~ noppes npc Фрэнк visible false",
+            "X": -1417,
             "Title": "",
-            "Y": 2021,
+            "Y": 1598,
             "Id": "d1a3e605-1bc7-4fce-9550-1d9eb09146a2"
         },
         {
@@ -293,7 +291,9 @@
             "Title": "",
             "Y": 1600,
             "Relations": [
-                "bf526a22-378d-49b6-ba5e-d0187e41577d"
+                "bf526a22-378d-49b6-ba5e-d0187e41577d",
+                "d1a3e605-1bc7-4fce-9550-1d9eb09146a2",
+                "b72de7c2-0f4f-4241-a70d-9f83df12294a"
             ],
             "Id": "0848e1d9-615c-4bb5-bc3e-9b47b2136976"
         },
@@ -423,10 +423,10 @@
         },
         {
             "Type": "command",
-            "Command": "noppes npc Полли visible false",
-            "X": -903,
+            "Command": "execute @p ~ ~ ~ noppes npc Полли visible false",
+            "X": -836,
             "Title": "",
-            "Y": 2184,
+            "Y": 1570,
             "Id": "b72de7c2-0f4f-4241-a70d-9f83df12294a"
         },
         {

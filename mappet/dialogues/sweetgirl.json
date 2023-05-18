@@ -1,0 +1,259 @@
+{
+    "Closable": 1b,
+    "Main": "ca6675d7-a54d-4b18-a698-cf7ad73d1d33",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Может, как-нибудь прибодрить ее?"
+            },
+            "X": 30,
+            "Title": "",
+            "Y": 1557,
+            "Sound": "",
+            "Relations": [
+                "9c53c003-bc30-4c82-b161-361171ba346e"
+            ],
+            "Id": "03f7b1c0-cdc2-47cb-987c-475b724375fa",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну что такое, я так хотела попробовать греческую пахлаву"
+            },
+            "X": 29,
+            "Title": "",
+            "Y": 1041,
+            "Relations": [
+                "c19d15f3-5ad8-4f79-ad2c-fb1e49baeb21"
+            ],
+            "Id": "39bd9b45-b2ae-41ee-b943-96b9f07363b5"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Ты не заметила, как она резко поменялась в лице? Побледнела так… бедняжка"
+            },
+            "X": 28,
+            "Title": "",
+            "Y": 1228,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "d2867a3f-34b9-4ad4-a205-3fddebc8edb2"
+            ],
+            "Id": "c19d15f3-5ad8-4f79-ad2c-fb1e49baeb21",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И что ты предлагаешь?"
+            },
+            "X": 26,
+            "Title": "",
+            "Y": 1762,
+            "Relations": [
+                "5c1eebbd-947f-4084-9d28-35d93867adfd"
+            ],
+            "Id": "9c53c003-bc30-4c82-b161-361171ba346e"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(На витрине красуется множество всяких разных, интересных сладостей. Но вам очень приглянулась пахлава из тонкого слоеного теста, которая сочилась медовым сиропом и была начинена грецкими орехами)"
+            },
+            "X": 18,
+            "Title": "",
+            "Y": -120,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cutebabygirl.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "0fdf8934-50f3-4fff-8ed0-e696a8ac6a16"
+            ],
+            "Id": "ca6675d7-a54d-4b18-a698-cf7ad73d1d33",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "«Добрый. - расстроено ответила девочка. - Может вам подсказать что-нибудь»?"
+            },
+            "X": 16,
+            "Title": "",
+            "Y": 210,
+            "Sound": "",
+            "Relations": [
+                "6443622e-9475-4ca4-a507-0484f6bbacb9"
+            ],
+            "Id": "f42e7c7c-09e6-4b5f-9f55-e4af6def0496",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "\"Извините. Я закроюсь ненадолго… простите пожалуйста\" - После этих слов, девочка скрылась в своей лавке"
+            },
+            "X": 26,
+            "Title": "",
+            "Y": 888,
+            "Sound": "",
+            "Relations": [
+                "39bd9b45-b2ae-41ee-b943-96b9f07363b5"
+            ],
+            "Id": "177ff0c6-3a93-452c-ab1d-bfaacab54eab",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Предлагаю продолжить нашу прогулку, а по дороге может найдем чего"
+            },
+            "X": 25,
+            "Title": "",
+            "Y": 1930,
+            "Sound": "",
+            "Relations": [
+                "dc7a3594-f462-48dc-8e99-846a68f87124"
+            ],
+            "Id": "5c1eebbd-947f-4084-9d28-35d93867adfd",
+            "Marker": "sweetgirl"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Заметила, но пахлавы мне все еще хочется"
+            },
+            "X": 25,
+            "Title": "",
+            "Y": 1390,
+            "Relations": [
+                "03f7b1c0-cdc2-47cb-987c-475b724375fa"
+            ],
+            "Id": "d2867a3f-34b9-4ad4-a205-3fddebc8edb2"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да? 
+Я поняла.. спасибо…"
+            },
+            "X": 27,
+            "Title": "",
+            "Y": 540,
+            "Sound": "",
+            "Relations": [
+                "2936440d-d714-409b-a2ef-d336d4c5ba97"
+            ],
+            "Id": "108ab7cb-c93f-4a18-b351-64c75c5ba41c",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый день!"
+            },
+            "X": 18,
+            "Title": "",
+            "Y": 26,
+            "Relations": [
+                "f42e7c7c-09e6-4b5f-9f55-e4af6def0496"
+            ],
+            "Id": "0fdf8934-50f3-4fff-8ed0-e696a8ac6a16"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да, мне бы… (Ханну прервал звонок телефона девочки)"
+            },
+            "X": 16,
+            "Title": "",
+            "Y": 356,
+            "Relations": [
+                "108ab7cb-c93f-4a18-b351-64c75c5ba41c"
+            ],
+            "Id": "6443622e-9475-4ca4-a507-0484f6bbacb9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так вот, я бы…"
+            },
+            "X": 28,
+            "Title": "",
+            "Y": 743,
+            "Relations": [
+                "177ff0c6-3a93-452c-ab1d-bfaacab54eab"
+            ],
+            "Id": "2936440d-d714-409b-a2ef-d336d4c5ba97"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 26,
+            "Title": "",
+            "Y": 2107,
+            "Id": "dc7a3594-f462-48dc-8e99-846a68f87124"
+        }
+    ]
+}

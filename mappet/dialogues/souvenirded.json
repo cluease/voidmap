@@ -1,0 +1,988 @@
+{
+    "Closable": 1b,
+    "Main": "c9f30205-7c70-4622-ba7f-0f85d981f4f7",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Да ей лет 16, не больше, а может даже и меньше"
+            },
+            "X": -26,
+            "Title": "",
+            "Y": 504,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 1.5f,
+                        "RZ": 0.61086524f,
+                        "Y": 0.125f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            -0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "3be246d0-f389-478f-9346-609cb0d6e130"
+            ],
+            "Id": "bf37fadf-11d1-4674-a928-1be187266c26",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Она любит сладости и время от времени радует нас с мамой вкусной выпечкой!"
+            },
+            "X": -14,
+            "Title": "",
+            "Y": 2030,
+            "Relations": [
+                "8f904682-df54-43c2-9718-53bd82b26280"
+            ],
+            "Id": "7ca891fa-e6c9-4516-87d4-3552fe2b0367"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ей пятнадцать"
+            },
+            "X": -29,
+            "Title": "",
+            "Y": 681,
+            "Relations": [
+                "1db09d14-db44-4951-8d06-dec1b87fbc10"
+            ],
+            "Id": "3be246d0-f389-478f-9346-609cb0d6e130"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну, она любит вязать и всякие самодельные плетеные вещи"
+            },
+            "X": -18,
+            "Title": "",
+            "Y": 1684,
+            "Relations": [
+                "96d62a17-ad15-41e3-b6f0-d93e9f5604f1"
+            ],
+            "Id": "cba36865-2848-4643-b029-62b6a5a9b493"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "sweetgirl",
+                            "Marker": "sweetgirl",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -22,
+            "Title": "разговор с девочкой",
+            "Y": -294,
+            "Relations": [
+                "90b73959-a4f4-46f0-b46e-deb6d3bf7f61"
+            ],
+            "Id": "c9f30205-7c70-4622-ba7f-0f85d981f4f7"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый день, молодые люди. Чем могу помочь?"
+            },
+            "X": -20,
+            "Title": "",
+            "Y": -128,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": -0.125f,
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "08d462d6-7361-4325-95a6-a428dcd69992"
+            ],
+            "Id": "90b73959-a4f4-46f0-b46e-deb6d3bf7f61",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый день, мы ищем подарок для моей сестры. У нее сегодня день рождения, а я не знаю, что лучше выбрать"
+            },
+            "X": -22,
+            "Title": "",
+            "Y": 34,
+            "Relations": [
+                "63d70342-0f3b-4697-92a9-11551a0806b3"
+            ],
+            "Id": "08d462d6-7361-4325-95a6-a428dcd69992"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Далее)"
+            },
+            "X": -14,
+            "Title": "",
+            "Y": 2355,
+            "Relations": [
+                "ec764e7f-0dea-4031-b276-861ae2036a2e"
+            ],
+            "Id": "ea74a4d8-866d-4552-a5e6-a0a18c0640dc"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Пока ты ворон ловила, я заметил, что у нее на ящике лежал набор со спицами для вязания. А еще у нее была не очень аккуратная плетеная брошка на блузке. Следовательно, можно предположить, что она любит вязать! Ну.. или по крайней мере любит вязаные вещи"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 1168,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 1.5f,
+                        "RZ": 0.61086524f,
+                        "Y": 0.125f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            -0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "487be13b-b526-4b0f-a93e-f2d7ad855a19"
+            ],
+            "Id": "3f6653a9-46a0-4027-9e32-aa0656e8905b",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 2925355,
+                "Text": "(Шепотом) Ну, выглядела она очень молодо"
+            },
+            "X": -23,
+            "Title": "",
+            "Y": 347,
+            "Relations": [
+                "bf37fadf-11d1-4674-a928-1be187266c26"
+            ],
+            "Id": "2445fe3b-fdf4-4b64-9b46-ad3a82ea3f89"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 2925355,
+                "Text": "(Шепотом) Понятия не имею, если она продает сладости, это же не значит что она любит печь?"
+            },
+            "X": -27,
+            "Title": "",
+            "Y": 1008,
+            "Relations": [
+                "3f6653a9-46a0-4027-9e32-aa0656e8905b"
+            ],
+            "Id": "04421e87-fb48-45f0-a671-adb48f8d6e24"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Обращайся"
+            },
+            "X": -20,
+            "Title": "",
+            "Y": 1502,
+            "Sound": "",
+            "Relations": [
+                "cba36865-2848-4643-b029-62b6a5a9b493"
+            ],
+            "Id": "f589389e-44b8-4acb-a0ca-36da629cd2d9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да, конечно"
+            },
+            "X": -11,
+            "Title": "",
+            "Y": 2698,
+            "Id": "6193de91-82a3-4dd0-b8af-b83b4365ef51"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Лукас усмехнулся)"
+            },
+            "X": -15,
+            "Title": "",
+            "Y": 2187,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 1.5f,
+                        "RZ": 0.61086524f,
+                        "Y": 0.125f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            -0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "ea74a4d8-866d-4552-a5e6-a0a18c0640dc"
+            ],
+            "Id": "8f904682-df54-43c2-9718-53bd82b26280",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В таком случае, у нас есть отличная коллекция вязаных кукол в стиле самой известной выпечки: круассаны, пончики, эклеры… Хотите взглянуть?"
+            },
+            "X": -13,
+            "Title": "",
+            "Y": 2540,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 0.625f,
+                        "RZ": 0.5235988f,
+                        "Y": -0.25f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "6193de91-82a3-4dd0-b8af-b83b4365ef51"
+            ],
+            "Id": "ec764e7f-0dea-4031-b276-861ae2036a2e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Какие у нее увлечения?"
+            },
+            "X": -26,
+            "Title": "",
+            "Y": 849,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "04421e87-fb48-45f0-a671-adb48f8d6e24"
+            ],
+            "Id": "1db09d14-db44-4951-8d06-dec1b87fbc10",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 2925355,
+                "Text": "Спасибо, Шерлок"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 1338,
+            "Relations": [
+                "f589389e-44b8-4acb-a0ca-36da629cd2d9"
+            ],
+            "Id": "487be13b-b526-4b0f-a93e-f2d7ad855a19"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Попробую помочь. Сколько вашей сестре лет?"
+            },
+            "X": -24,
+            "Title": "",
+            "Y": 182,
+            "Sound": "",
+            "Relations": [
+                "2445fe3b-fdf4-4b64-9b46-ad3a82ea3f89"
+            ],
+            "Id": "63d70342-0f3b-4697-92a9-11551a0806b3",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так-так, подумаем. У нас очень много вязаных сувениров. Помимо этого, чем она еще занимается в свободное время?"
+            },
+            "X": -17,
+            "Title": "",
+            "Y": 1851,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/cleverded.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 0.625f,
+                        "RZ": 0.5235988f,
+                        "Y": -0.25f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -195.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            -1.0f,
+                            0.0f,
+                            0.5f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/tourist1date.png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_3d",
+                            "Name": "emoticons.slim_3d"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "7ca891fa-e6c9-4516-87d4-3552fe2b0367"
+            ],
+            "Id": "96d62a17-ad15-41e3-b6f0-d93e9f5604f1",
+            "Marker": ""
+        }
+    ]
+}
