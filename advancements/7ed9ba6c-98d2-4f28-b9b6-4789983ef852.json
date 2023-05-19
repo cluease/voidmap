@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2023-05-19 19:04:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2023-05-09 20:37:25 +0300"
@@ -98,6 +104,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_red_flower": "2023-05-12 10:17:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2023-05-19 19:04:45 +0300"
     },
     "done": true
   },
@@ -386,6 +398,12 @@
   "cfm:house_party": {
     "criteria": {
       "stereo_activated": "2023-05-16 21:10:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2023-05-19 19:04:45 +0300"
     },
     "done": true
   },
@@ -1094,6 +1112,12 @@
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_orange_wool": "2023-05-14 11:50:56 +0300"
+    },
+    "done": true
+  },
+  "cfm:modern_technology": {
+    "criteria": {
+      "placed_computer": "2023-05-19 19:32:13 +0300"
     },
     "done": true
   },

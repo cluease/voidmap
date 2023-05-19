@@ -1,0 +1,128 @@
+{
+    "Closable": 1b,
+    "Main": "c95f03c0-5100-4f70-a430-9ace2847a185",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы включили свой телефон"
+            },
+            "X": 82,
+            "Title": "",
+            "Y": -38,
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 2.5f
+                },
+                "BodyParts": [
+                    {
+                        "T": [
+                            0.0f,
+                            -1.0f,
+                            0.0f
+                        ],
+                        "Animate": 0b,
+                        "Limb": "head",
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Name": "item",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:phone",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Sound": "",
+            "Relations": [
+                "ec856219-fb2e-4028-a50f-fb140a799b56",
+                "4d551502-5cfe-48b1-9d50-c542d122f53d"
+            ],
+            "Id": "c95f03c0-5100-4f70-a430-9ace2847a185",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Посмотреть список дел на сегодня"
+            },
+            "X": -150,
+            "Title": "1ДЕНЬ",
+            "Y": 75,
+            "Relations": [
+                "6eab19ac-ff5e-4d14-80f7-ab94fd160431"
+            ],
+            "Id": "4d551502-5cfe-48b1-9d50-c542d122f53d"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept @p shower",
+            "X": 82,
+            "Title": "",
+            "Y": 300,
+            "Id": "d650d666-0365-4d7f-b55f-ca5bf7b0db50"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "○ Провести операцию на сердце
+○ Посетить своих пациентов и проверить их самочувствие
+○ Разгребсти бумаги в кабинете"
+            },
+            "X": -151,
+            "Title": "",
+            "Y": 212,
+            "Sound": "",
+            "Relations": [
+                "caccec46-6366-4e89-9788-a2e9d2301eeb",
+                "d650d666-0365-4d7f-b55f-ca5bf7b0db50"
+            ],
+            "Id": "6eab19ac-ff5e-4d14-80f7-ab94fd160431",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 14497849,
+                "Text": "(Закрыть)"
+            },
+            "X": 278,
+            "Title": "",
+            "Y": -120,
+            "Id": "ec856219-fb2e-4028-a50f-fb140a799b56"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что ж, пора собираться на работу..."
+            },
+            "X": -155,
+            "Title": "",
+            "Y": 358,
+            "Id": "caccec46-6366-4e89-9788-a2e9d2301eeb"
+        }
+    ]
+}

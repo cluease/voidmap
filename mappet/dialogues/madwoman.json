@@ -1,0 +1,121 @@
+{
+    "Closable": 1b,
+    "Main": "6741ee76-8fc9-4be9-ad01-f5fcbef2596d",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Далее)"
+            },
+            "X": -14,
+            "Title": "",
+            "Y": 308,
+            "Relations": [
+                "39b58d4a-0751-4c4d-8190-6b41f9f5660f"
+            ],
+            "Id": "f12d7752-f81a-41db-9760-32ee02fd76cc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Здравствуйте, что вы продаете?"
+            },
+            "X": -10,
+            "Title": "",
+            "Y": 0,
+            "Relations": [
+                "3a1fed96-1815-4dfb-b262-1f74adc831b7"
+            ],
+            "Id": "486b8c8c-4ddc-499e-9ce0-dcf6699d852a"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Судя по звукам, женщина лет 52 смотрит какую-то мелодраму по телевизору) "
+            },
+            "X": -6,
+            "Title": "",
+            "Y": -148,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/madwoman.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "486b8c8c-4ddc-499e-9ce0-dcf6699d852a"
+            ],
+            "Id": "6741ee76-8fc9-4be9-ad01-f5fcbef2596d",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2[lЛукас:[r Думаю, ей лучше не мешать. Сопливая мелодрама ей сейчас явно важнее
+Давай лучше осмотримся здесь"
+            },
+            "X": -16,
+            "Title": "",
+            "Y": 460,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/tourist1date.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Id": "39b58d4a-0751-4c4d-8190-6b41f9f5660f",
+            "Marker": "madwoman"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "\"Натуральные шубы и другие меховые изделия\" - на отвали ответила женщина и принялась снова смотреть сериал"
+            },
+            "X": -14,
+            "Title": "",
+            "Y": 164,
+            "Sound": "",
+            "Relations": [
+                "f12d7752-f81a-41db-9760-32ee02fd76cc"
+            ],
+            "Id": "3a1fed96-1815-4dfb-b262-1f74adc831b7",
+            "Marker": ""
+        }
+    ]
+}

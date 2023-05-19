@@ -86,6 +86,17 @@
             "Id": "9c53c003-bc30-4c82-b161-361171ba346e"
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16721192,
+                "Text": "(Закрыть)"
+            },
+            "X": -254,
+            "Title": "",
+            "Y": -8,
+            "Id": "09fa712a-153b-4943-a111-472741416c19"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -114,7 +125,8 @@
             },
             "Sound": "",
             "Relations": [
-                "0fdf8934-50f3-4fff-8ed0-e696a8ac6a16"
+                "0fdf8934-50f3-4fff-8ed0-e696a8ac6a16",
+                "09fa712a-153b-4943-a111-472741416c19"
             ],
             "Id": "ca6675d7-a54d-4b18-a698-cf7ad73d1d33",
             "Marker": ""
@@ -247,7 +259,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 16721192,
                 "Text": "(Закрыть)"
             },
             "X": 26,

@@ -1,0 +1,219 @@
+{
+    "Main": "dd7aec25-e788-4db2-9bd2-fa4a11fc2197",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/stopsound @p master customnpcs:misc.ringtone",
+            "X": 17,
+            "Title": "",
+            "Y": 992,
+            "Relations": [
+                "734569bb-f560-414c-9c47-20a37465ed52"
+            ],
+            "Id": "e5787722-c048-426a-8a05-4899276f0acb"
+        },
+        {
+            "Type": "timer",
+            "Timer": 80,
+            "X": 16,
+            "Title": "",
+            "Y": 1131,
+            "Relations": [
+                "2e4d50b9-b4ee-413c-87a7-1425639333e2"
+            ],
+            "Id": "734569bb-f560-414c-9c47-20a37465ed52"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041c\\u0435\\u0441\\u0442\\u043e\\u043f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u041a\\u0430\\u043d\\u0430\\u0434\\u0430, \\u0433\\u043e\\u0440\\u043e\\u0434 \\u0425\\u043e\\u0442\\u0441\\u0432\\u0438\\u043b\\u043b\"}]",
+            "X": 17,
+            "Title": "Мест",
+            "Y": 1591,
+            "Relations": [
+                "13e6b084-a117-4b90-99c7-a8181fa8e8eb"
+            ],
+            "Id": "a6b544f6-a292-497a-aae1-27e1e8f815d1"
+        },
+        {
+            "Type": "command",
+            "Command": "effect @p blindness 10 10 true",
+            "X": 372,
+            "Title": "",
+            "Y": 6,
+            "Id": "ea5354a2-b45a-4139-9382-a54788cd1959"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.ringtone master @p ~ ~ ~ 300",
+            "X": -241,
+            "Title": "",
+            "Y": -83,
+            "Id": "55b1213b-1263-4bab-b93c-7094e72851e1"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 15,
+            "Title": "",
+            "Y": 1434,
+            "Relations": [
+                "a6b544f6-a292-497a-aae1-27e1e8f815d1",
+                "5e05febc-d065-4b15-9832-9dbacda71ed5"
+            ],
+            "Id": "85addea9-6722-4c08-b991-9e43e1ed7735"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 755 38 621 minecraft:redstone_block",
+            "X": 187,
+            "Title": "skin",
+            "Y": -306,
+            "Id": "fc398e94-7a36-4580-987c-6b42b57dcf1c"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041a\\u0430\\u043a \\u043e\\u0442\\u043a\\u043b\\u044e\\u0447\\u0430\\u0435\\u0442\\u0441\\u044f \\u044d\\u0442\\u0430 \\u0448\\u0442\\u0443\\u043a\\u043e\\u0432\\u0438\\u043d\\u0430...\",\"bold\":true,\"color\":\"white\"}",
+            "X": 19,
+            "Title": "",
+            "Y": 646,
+            "Relations": [
+                "9b231c2f-6b97-440b-a076-e6ba901daad2"
+            ],
+            "Id": "f4fa204e-eb16-41c6-8b1f-88ffffc2838d"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0443 \\u0441\\u0435\\u0439\\u0447\\u0430\\u0441, \\u0441\\u0435\\u0439\\u0447\\u0430\\u0441...\",\"bold\":true,\"color\":\"white\"}",
+            "X": 22,
+            "Title": "",
+            "Y": 297,
+            "Relations": [
+                "510e65bb-ff3d-4263-8afa-7b42e2b55d96"
+            ],
+            "Id": "6930c2f6-bd66-40b1-9509-cb17d15f015d"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0414\\u0430\\u0442\\u0430:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u041f\\u0430\\u0440\\u0443 \\u043d\\u0435\\u0434\\u0435\\u043b\\u044c \\u0441\\u043f\\u0443\\u0441\\u0442\\u044f\"}]",
+            "X": 17,
+            "Title": "Дата",
+            "Y": 1925,
+            "Id": "6790076c-ea98-4d21-96cc-b7fb2b087f34"
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": 21,
+            "Title": "",
+            "Y": 482,
+            "Relations": [
+                "f4fa204e-eb16-41c6-8b1f-88ffffc2838d"
+            ],
+            "Id": "510e65bb-ff3d-4263-8afa-7b42e2b55d96"
+        },
+        {
+            "Type": "timer",
+            "Timer": 0,
+            "X": 21,
+            "Title": "100",
+            "Y": 137,
+            "Relations": [
+                "6930c2f6-bd66-40b1-9509-cb17d15f015d"
+            ],
+            "Id": "c12d9fdd-a267-4821-a6c3-30f16d9d9c2b"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -274,
+            "Title": "",
+            "Y": 1922,
+            "Id": "96744268-db3b-4241-8924-9a9f245efc91"
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": 18,
+            "Title": "",
+            "Y": 806,
+            "Relations": [
+                "e5787722-c048-426a-8a05-4899276f0acb"
+            ],
+            "Id": "9b231c2f-6b97-440b-a076-e6ba901daad2"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -274,
+            "Title": "",
+            "Y": 1631,
+            "Id": "5e05febc-d065-4b15-9832-9dbacda71ed5"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u0436:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u0425\\u0430\\u043d\\u043d\\u0430 \\u041a\\u043b\\u0430\\u0440\\u043a\"}]",
+            "X": 15,
+            "Title": "Перс",
+            "Y": 1280,
+            "Relations": [
+                "85addea9-6722-4c08-b991-9e43e1ed7735",
+                "482f119d-3c38-4767-9250-80d3633c8429"
+            ],
+            "Id": "2e4d50b9-b4ee-413c-87a7-1425639333e2"
+        },
+        {
+            "Type": "timer",
+            "Timer": 160,
+            "X": 28,
+            "Title": "",
+            "Y": -192,
+            "Relations": [
+                "cad7b529-7af1-45f4-a773-aa0a064b0750",
+                "ea5354a2-b45a-4139-9382-a54788cd1959",
+                "46d13b13-eb06-4fd4-8b6f-32e216f20670",
+                "55b1213b-1263-4bab-b93c-7094e72851e1",
+                "fc398e94-7a36-4580-987c-6b42b57dcf1c"
+            ],
+            "Id": "dd7aec25-e788-4db2-9bd2-fa4a11fc2197"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 749 39 622",
+            "X": 26,
+            "Title": "",
+            "Y": -30,
+            "Relations": [
+                "c12d9fdd-a267-4821-a6c3-30f16d9d9c2b"
+            ],
+            "Id": "cad7b529-7af1-45f4-a773-aa0a064b0750"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 19,
+            "Title": "",
+            "Y": 1761,
+            "Relations": [
+                "6790076c-ea98-4d21-96cc-b7fb2b087f34",
+                "96744268-db3b-4241-8924-9a9f245efc91"
+            ],
+            "Id": "13e6b084-a117-4b90-99c7-a8181fa8e8eb"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:gun.empty master @p ~ ~ ~ 300",
+            "X": -273,
+            "Title": "",
+            "Y": 1368,
+            "Id": "482f119d-3c38-4767-9250-80d3633c8429"
+        },
+        {
+            "Type": "command",
+            "Command": "effect @p slowness 10 200 true",
+            "X": 372,
+            "Title": "",
+            "Y": -178,
+            "Id": "46d13b13-eb06-4fd4-8b6f-32e216f20670"
+        }
+    ]
+}

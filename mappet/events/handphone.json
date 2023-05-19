@@ -1,0 +1,48 @@
+{
+    "Main": "df018cf7-0fc7-4a3f-b425-99fee137ded7",
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 0,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:phone",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 44,
+            "Title": "hold",
+            "Y": -92,
+            "Relations": [
+                "ab2fb639-ae57-4799-942d-20605c5611d8"
+            ],
+            "Id": "df018cf7-0fc7-4a3f-b425-99fee137ded7"
+        },
+        {
+            "Type": "command",
+            "Command": "mp dialogue open @p handphone",
+            "X": 44,
+            "Title": "",
+            "Y": 72,
+            "Id": "ab2fb639-ae57-4799-942d-20605c5611d8"
+        }
+    ]
+}

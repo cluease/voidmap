@@ -21,7 +21,7 @@
             "Id": "79c36191-36a6-46dd-9db2-d9c76c1d7ac1"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -35,7 +35,7 @@
                 "8aef395a-e36b-45be-b092-16558f4c4f8d"
             ],
             "Id": "900eefed-5f51-43a9-ac6b-9c76f399117f",
-            "Marker": ""
+            "Marker": "mayor1"
         },
         {
             "Read": 0b,

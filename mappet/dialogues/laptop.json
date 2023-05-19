@@ -1,0 +1,146 @@
+{
+    "Closable": 1b,
+    "Main": "b83cbbfb-3373-438d-a29d-d3abf9bbb0f4",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы включили свой ноутбук. Здесь можно следить за актуальными городскими новостями, сидеть на форумах и решать важные вопросы по работе"
+            },
+            "X": 0,
+            "Title": "",
+            "Y": -144,
+            "Morph": {
+                "Materials": {
+                    "m_0": "b.a:reader/skins/computer.png"
+                },
+                "Skin": "b.a:reader/skins/computer.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                20.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                0.0f,
+                                -90.0f,
+                                0.0f
+                            ]
+                        }
+                    }
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.reader"
+            },
+            "Sound": "",
+            "Relations": [
+                "6ed8a7f6-1a21-4301-8646-61f12379bce4",
+                "3acff007-9766-4211-b529-4f1d6fb4ab0b"
+            ],
+            "Id": "b83cbbfb-3373-438d-a29d-d3abf9bbb0f4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Выключить музыку)"
+            },
+            "X": -702,
+            "Title": "",
+            "Y": 38,
+            "Relations": [
+                "738e1e77-48ba-4cca-93ef-669e9368d9f9"
+            ],
+            "Id": "58a9102a-0e33-443c-95f0-6d44fc45f2af"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 14497849,
+                "Text": "(Закрыть)"
+            },
+            "X": 94,
+            "Title": "",
+            "Y": -22,
+            "Id": "6ed8a7f6-1a21-4301-8646-61f12379bce4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Открыть свой плейлист)"
+            },
+            "X": -512,
+            "Title": "",
+            "Y": -126,
+            "Relations": [
+                "c8cd3380-c45c-47e1-87d7-87cb9f0e6ae6"
+            ],
+            "Id": "3acff007-9766-4211-b529-4f1d6fb4ab0b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Вы открыли свой плейлист)"
+            },
+            "X": -519,
+            "Title": "",
+            "Y": 28,
+            "Sound": "",
+            "Relations": [
+                "cdfe9c88-bfb9-4cba-84e2-dcf791cfa0e4",
+                "58a9102a-0e33-443c-95f0-6d44fc45f2af"
+            ],
+            "Id": "c8cd3380-c45c-47e1-87d7-87cb9f0e6ae6",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:songs.kyleb_7by8 master @p ~ ~ ~ 300",
+            "X": -343,
+            "Title": "поменять песню",
+            "Y": 207,
+            "Id": "9a9d60f4-e0c9-482b-a021-796181cfb701"
+        },
+        {
+            "Type": "command",
+            "Command": "stopsound @p master customnpcs:songs.kyleb_7by8",
+            "X": -705,
+            "Title": "",
+            "Y": 203,
+            "Id": "738e1e77-48ba-4cca-93ef-669e9368d9f9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Включить музыку)"
+            },
+            "X": -342,
+            "Title": "",
+            "Y": 39,
+            "Relations": [
+                "9a9d60f4-e0c9-482b-a021-796181cfb701"
+            ],
+            "Id": "cdfe9c88-bfb9-4cba-84e2-dcf791cfa0e4"
+        }
+    ]
+}

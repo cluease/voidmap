@@ -1,0 +1,197 @@
+{
+    "Main": "011e90fd-6bc6-4486-8ccb-5fd7f12f6817",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.espresso block @p ~ ~ ~ 300",
+            "X": 224,
+            "Title": "",
+            "Y": 39,
+            "Id": "498e5e77-c69a-46e3-8fbf-622fcdd5b124"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=espresso]",
+            "X": -322,
+            "Title": "",
+            "Y": 970,
+            "Id": "b360d30c-b395-4812-8594-98b6c3358ede"
+        },
+        {
+            "Type": "timer",
+            "Timer": 120,
+            "X": -62,
+            "Title": "",
+            "Y": 508,
+            "Relations": [
+                "5b49fd0b-822a-4cf9-bf89-73ac7c3c540e"
+            ],
+            "Id": "0300cf35-1524-4f45-83e6-c99c3d2dc147"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0425\\u043e\\u0442\\u044f, 6 \\u043a\\u0440\\u0443\\u0436\\u0435\\u043a \\u0432 \\u0434\\u0435\\u043d\\u044c \\u044d\\u0442\\u043e \\u0432\\u0440\\u043e\\u0434\\u0435 \\u0431\\u044b \\u043d\\u0435 \\u0442\\u0430\\u043a \\u0443\\u0436 \\u0438 \\u043c\\u043d\\u043e\\u0433\\u043e, \\u043f\\u0440\\u0430\\u0432\\u0434\\u0430?\",\"bold\":true,\"color\":\"yellow\"}",
+            "X": -60,
+            "Title": "",
+            "Y": 660,
+            "Relations": [
+                "6e702600-0cba-4b1f-8cb7-5837c3728434"
+            ],
+            "Id": "5b49fd0b-822a-4cf9-bf89-73ac7c3c540e"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "espresso",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -58,
+            "Title": "",
+            "Y": -176,
+            "Relations": [
+                "4723942a-43bf-4d5d-addf-fe08c5928ee3"
+            ],
+            "Id": "011e90fd-6bc6-4486-8ccb-5fd7f12f6817"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041e, \\u0433\\u043e\\u0442\\u043e\\u0432\\u043e!\",\"bold\":true,\"color\":\"yellow\"}",
+            "X": -58,
+            "Title": "",
+            "Y": 970,
+            "Id": "a11cd916-105d-46e1-8abc-f50fd610167d"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041c\\u043e\\u0439 \\u043b\\u044e\\u0431\\u0438\\u043c\\u044b\\u0439 \\u044d\\u0441\\u043f\\u0440\\u0435\\u0441\\u0441\\u043e, \\u0442\\u043e\\u043b\\u044c\\u043a\\u043e \\u043e\\u043d \\u043c\\u0435\\u043d\\u044f \\u0441\\u043f\\u0430\\u0441\\u0430\\u0435\\u0442 \\u043f\\u043e \\u0443\\u0442\\u0440\\u0430\\u043c\",\"bold\":true,\"color\":\"yellow\"}",
+            "X": -58,
+            "Title": "",
+            "Y": -16,
+            "Relations": [
+                "1369b70e-e2ac-4a4f-b1e6-0f00f1af00d7",
+                "498e5e77-c69a-46e3-8fbf-622fcdd5b124"
+            ],
+            "Id": "4723942a-43bf-4d5d-addf-fe08c5928ee3"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "wakeuphannah",
+                        "Mode": 1,
+                        "Value": 2.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 212,
+            "CustomData": "",
+            "Title": "",
+            "Y": 820,
+            "Id": "ad61e483-bdae-45a1-9aba-789e82098cf0"
+        },
+        {
+            "Type": "timer",
+            "Timer": 120,
+            "X": -60,
+            "Title": "",
+            "Y": 818,
+            "Relations": [
+                "a11cd916-105d-46e1-8abc-f50fd610167d",
+                "99cc593d-5d67-4ff8-a70a-9f44605482c2",
+                "b360d30c-b395-4812-8594-98b6c3358ede",
+                "f151611f-2f27-45c0-9f53-7761b59e55fc",
+                "ad61e483-bdae-45a1-9aba-789e82098cf0"
+            ],
+            "Id": "6e702600-0cba-4b1f-8cb7-5837c3728434"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 3,
+                            "Selector": "@p"
+                        },
+                        "Type": "item",
+                        "Mode": 1,
+                        "Frequency": 1,
+                        "Stack": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "variedcommodities:heart",
+                            "Count": 1b,
+                            "tag": {
+                                "display": {
+                                    "Lore": [
+                                        "§fПоистине мощный напиток, помогающий открыть глаза с утра"
+                                    ],
+                                    "Name": "§e§lЭспрессо"
+                                }
+                            },
+                            "Damage": 0s
+                        }
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 213,
+            "CustomData": "",
+            "Title": "Дает Эспрессо",
+            "Y": 960,
+            "Id": "99cc593d-5d67-4ff8-a70a-9f44605482c2"
+        },
+        {
+            "Type": "command",
+            "Command": "stopsound @p block customnpcs:misc.espresso",
+            "X": -352,
+            "Title": "",
+            "Y": 810,
+            "Id": "f151611f-2f27-45c0-9f53-7761b59e55fc"
+        },
+        {
+            "Type": "timer",
+            "Timer": 120,
+            "X": -56,
+            "Title": "",
+            "Y": 166,
+            "Relations": [
+                "25cc1ee4-1c1c-4020-81a7-d84b3202ed21"
+            ],
+            "Id": "1369b70e-e2ac-4a4f-b1e6-0f00f1af00d7"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041e\\u0445, \\u0425\\u0430\\u043d\\u043d\\u0430, \\u044d\\u0442\\u043e \\u0443\\u0436\\u0435 \\u0441\\u043c\\u0430\\u0445\\u0438\\u0432\\u0430\\u0435\\u0442 \\u043d\\u0430 \\u043a\\u043e\\u0444\\u0435\\u0439\\u043d\\u0443\\u044e \\u0437\\u0430\\u0432\\u0438\\u0441\\u0438\\u043c\\u043e\\u0441\\u0442\\u044c...\",\"bold\":true,\"color\":\"yellow\"}",
+            "X": -58,
+            "Title": "",
+            "Y": 328,
+            "Relations": [
+                "0300cf35-1524-4f45-83e6-c99c3d2dc147"
+            ],
+            "Id": "25cc1ee4-1c1c-4020-81a7-d84b3202ed21"
+        }
+    ]
+}

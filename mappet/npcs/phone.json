@@ -1,0 +1,157 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 2.5f
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "Animate": 0b,
+                        "Limb": "head",
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Name": "item",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:phone",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    },
+                    {
+                        "Limb": "head",
+                        "Morph": {
+                            "RemoveParentSpace": 1b,
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    1.25f,
+                                    0.0f
+                                ]
+                            },
+                            "Shadow": 0b,
+                            "Billboard": 1b,
+                            "Texture": "b.a:image/skins/rc.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp npc despawn @e[mpid=phone]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "give @p variedcommodities:phone",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u041e\\u0414\\u0421\\u041a\\u0410\\u0417\\u041a\\u0410:\",\"bold\":true,\"color\":\"gold\"},{\"text\":\" \\u0421 \\u043f\\u043e\\u043c\\u043e\\u0449\\u044c\\u044e \\u0442\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\\u0430 \\u0432\\u044b \\u043c\\u043e\\u0436\\u0435\\u0442\\u0435 \\u0434\\u0432\\u0438\\u0433\\u0430\\u0442\\u044c\\u0441\\u044f \\u043f\\u043e \\u0441\\u044e\\u0436\\u0435\\u0442\\u0443, \\u043f\\u0440\\u0438\\u043d\\u0438\\u043c\\u0430\\u0442\\u044c \\u043f\\u043e\\u0431\\u043e\\u0447\\u043d\\u044b\\u0435 \\u0437\\u0430\\u0434\\u0430\\u043d\\u0438\\u044f \\u0438 \\u043e\\u0442\\u0432\\u0435\\u0447\\u0430\\u0442\\u044c \\u043d\\u0430 \\u0441\\u043c\\u0441\",\"color\":\"white\"}]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u041e\\u0414\\u0421\\u041a\\u0410\\u0417\\u041a\\u0410:\",\"bold\":true,\"color\":\"gold\"},{\"text\":\" \\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d \\u0443 \\u0432\\u0430\\u0441 \\u0432\\u0441\\u0435\\u0433\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u0443\\u043a\\u0430\\u0445, \\u043d\\u0435 \\u0437\\u0430\\u0431\\u044b\\u0432\\u0430\\u0439\\u0442\\u0435 \\u043f\\u0440\\u043e\\u0432\\u0435\\u0440\\u044f\\u0442\\u044c \\u0435\\u0433\\u043e \\u0432\\u0440\\u0435\\u043c\\u044f \\u043e\\u0442 \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u0438\",\"color\":\"white\"}]",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "friendly",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}
