@@ -19,7 +19,8 @@
             "Sound": "",
             "Relations": [
                 "91f078b5-51a5-42d1-83d2-9193ff883bbe",
-                "eae1ccf0-a568-4e3d-b1ac-f4aab31d7e33"
+                "eae1ccf0-a568-4e3d-b1ac-f4aab31d7e33",
+                "062a4ee7-7166-4664-a0d4-ce6d92526e03"
             ],
             "Id": "6a3db6e5-4595-4d02-9734-6573695c4956",
             "Marker": ""
@@ -37,6 +38,21 @@
                 "f2628465-c773-4290-9f24-0013f40cced7"
             ],
             "Id": "91f078b5-51a5-42d1-83d2-9193ff883bbe"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Операционная"
+            },
+            "X": 404,
+            "Title": "",
+            "Y": 114,
+            "Relations": [
+                "ea6f862f-be26-4e8a-b1cb-14f813625d81",
+                "af240166-e63a-4a91-9fc4-b038c37f9260"
+            ],
+            "Id": "062a4ee7-7166-4664-a0d4-ce6d92526e03"
         },
         {
             "Type": "reply",
@@ -72,6 +88,14 @@
             "Id": "f2628465-c773-4290-9f24-0013f40cced7"
         },
         {
+            "Type": "command",
+            "Command": "scene play surgery @p",
+            "X": 404,
+            "Title": "",
+            "Y": 264,
+            "Id": "af240166-e63a-4a91-9fc4-b038c37f9260"
+        },
+        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -96,6 +120,14 @@
                 "9be765d5-64a7-4bbe-b4dc-6dfd2cea8cb8"
             ],
             "Id": "eae1ccf0-a568-4e3d-b1ac-f4aab31d7e33"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play surgery @p",
+            "X": 626,
+            "Title": "",
+            "Y": 122,
+            "Id": "ea6f862f-be26-4e8a-b1cb-14f813625d81"
         },
         {
             "Type": "trigger",
