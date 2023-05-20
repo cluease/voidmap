@@ -1,0 +1,120 @@
+{
+    "Closable": 1b,
+    "Main": "6a3db6e5-4595-4d02-9734-6573695c4956",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы открыли лифт. Куда вы хотите отправиться?"
+            },
+            "X": -32,
+            "Title": "",
+            "Y": 30,
+            "Sound": "",
+            "Relations": [
+                "91f078b5-51a5-42d1-83d2-9193ff883bbe",
+                "eae1ccf0-a568-4e3d-b1ac-f4aab31d7e33"
+            ],
+            "Id": "6a3db6e5-4595-4d02-9734-6573695c4956",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Первый этаж"
+            },
+            "X": 114,
+            "Title": "",
+            "Y": 202,
+            "Relations": [
+                "f2628465-c773-4290-9f24-0013f40cced7"
+            ],
+            "Id": "91f078b5-51a5-42d1-83d2-9193ff883bbe"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Отделение кардиохирургии"
+            },
+            "X": -170,
+            "Title": "",
+            "Y": 200,
+            "Relations": [
+                "5a258346-540a-432b-942f-51b7d296d302"
+            ],
+            "Id": "9be765d5-64a7-4bbe-b4dc-6dfd2cea8cb8"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "elevatorhospital2"
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 188,
+            "CustomData": "",
+            "Title": "",
+            "Y": 378,
+            "Id": "f2628465-c773-4290-9f24-0013f40cced7"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "meduniform",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -226,
+            "Title": "",
+            "Y": 30,
+            "Relations": [
+                "9be765d5-64a7-4bbe-b4dc-6dfd2cea8cb8"
+            ],
+            "Id": "eae1ccf0-a568-4e3d-b1ac-f4aab31d7e33"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "elevatorhospital1"
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -268,
+            "CustomData": "",
+            "Title": "",
+            "Y": 366,
+            "Id": "5a258346-540a-432b-942f-51b7d296d302"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Main": "1f6e2d70-1062-49b5-8c86-08facd5f5f76",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 120,
+            "X": 62,
+            "Title": "",
+            "Y": 70,
+            "Relations": [
+                "4f3cb169-8394-499f-990d-eb69d4fa9c8d"
+            ],
+            "Id": "391bbc7a-3199-48ed-95e8-ca07b86aea95"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 893 4 600",
+            "X": 60,
+            "Title": "",
+            "Y": -72,
+            "Relations": [
+                "391bbc7a-3199-48ed-95e8-ca07b86aea95"
+            ],
+            "Id": "1f6e2d70-1062-49b5-8c86-08facd5f5f76"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 749 38 606",
+            "X": 64,
+            "Title": "",
+            "Y": 228,
+            "Id": "4f3cb169-8394-499f-990d-eb69d4fa9c8d"
+        }
+    ]
+}

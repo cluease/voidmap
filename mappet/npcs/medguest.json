@@ -1,0 +1,224 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Pose": "sitting",
+                "Animation": {
+                    "Animates": 1b
+                },
+                "Skin": "b.a:alex/skins/citizen (10).png",
+                "CustomPose": {
+                    "Size": [
+                        0.6f,
+                        1.3f,
+                        0.6f
+                    ],
+                    "Poses": {
+                        "right_arm": {
+                            "P": [
+                                -5.5f,
+                                -2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -36.0f,
+                                0.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_leg": {
+                            "P": [
+                                2.0f,
+                                -12.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -90.0f,
+                                18.0f,
+                                -4.5f
+                            ]
+                        },
+                        "right_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        },
+                        "outer": {
+                            "P": [
+                                0.0f,
+                                4.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "body": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ]
+                        },
+                        "bodywear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "head": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_arm": {
+                            "P": [
+                                5.5f,
+                                -2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -36.0f,
+                                0.0f,
+                                0.0f
+                            ]
+                        },
+                        "right_leg": {
+                            "P": [
+                                -2.0f,
+                                -12.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -90.0f,
+                                -18.0f,
+                                4.5f
+                            ]
+                        },
+                        "right_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "anchor": {
+                            "P": [
+                                0.0f,
+                                5.75f,
+                                0.0f
+                            ],
+                            "C": 16777215
+                        },
+                        "left_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        }
+                    }
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.alex"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "guesthospital",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 1b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "friendly",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+                0,
+                0,
+                1
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}

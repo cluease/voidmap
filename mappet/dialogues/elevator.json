@@ -1,0 +1,94 @@
+{
+    "Closable": 1b,
+    "Main": "0412a701-8f5a-43db-bd14-2af2eaea6aa2",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Первый этаж"
+            },
+            "X": -228,
+            "Title": "",
+            "Y": 90,
+            "Relations": [
+                "9f4a3c14-4f82-45df-9048-d5ccb0a269d8"
+            ],
+            "Id": "5efec485-5684-464c-9f6b-e767f1243e0d"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы открыли лифт. На какой этаж хотите отправиться?"
+            },
+            "X": -40,
+            "Title": "",
+            "Y": -66,
+            "Sound": "",
+            "Relations": [
+                "5efec485-5684-464c-9f6b-e767f1243e0d",
+                "f1562401-ae0f-407d-a12d-537508048014"
+            ],
+            "Id": "0412a701-8f5a-43db-bd14-2af2eaea6aa2",
+            "Marker": ""
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "elevator1stfloor"
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -336,
+            "CustomData": "",
+            "Title": "",
+            "Y": 240,
+            "Id": "9f4a3c14-4f82-45df-9048-d5ccb0a269d8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пятый этаж (Ваша квартира)"
+            },
+            "X": 180,
+            "Title": "",
+            "Y": 92,
+            "Relations": [
+                "b148cf9f-ddca-4b92-a38d-55c06283af1f"
+            ],
+            "Id": "f1562401-ae0f-407d-a12d-537508048014"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "elevator5stfloor"
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 290,
+            "CustomData": "",
+            "Title": "",
+            "Y": 274,
+            "Id": "b148cf9f-ddca-4b92-a38d-55c06283af1f"
+        }
+    ]
+}

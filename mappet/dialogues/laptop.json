@@ -50,24 +50,11 @@
             "Sound": "",
             "Relations": [
                 "6ed8a7f6-1a21-4301-8646-61f12379bce4",
-                "3acff007-9766-4211-b529-4f1d6fb4ab0b"
+                "3acff007-9766-4211-b529-4f1d6fb4ab0b",
+                "3d4789ff-3278-47bb-9d52-2b98647372ae"
             ],
             "Id": "b83cbbfb-3373-438d-a29d-d3abf9bbb0f4",
             "Marker": ""
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Выключить музыку)"
-            },
-            "X": -702,
-            "Title": "",
-            "Y": 38,
-            "Relations": [
-                "738e1e77-48ba-4cca-93ef-669e9368d9f9"
-            ],
-            "Id": "58a9102a-0e33-443c-95f0-6d44fc45f2af"
         },
         {
             "Type": "reply",
@@ -79,20 +66,6 @@
             "Title": "",
             "Y": -22,
             "Id": "6ed8a7f6-1a21-4301-8646-61f12379bce4"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Открыть свой плейлист)"
-            },
-            "X": -512,
-            "Title": "",
-            "Y": -126,
-            "Relations": [
-                "c8cd3380-c45c-47e1-87d7-87cb9f0e6ae6"
-            ],
-            "Id": "3acff007-9766-4211-b529-4f1d6fb4ab0b"
         },
         {
             "Read": 0b,
@@ -121,6 +94,28 @@
             "Id": "9a9d60f4-e0c9-482b-a021-796181cfb701"
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Изучить историю болезни пациента)"
+            },
+            "X": 457,
+            "Title": "",
+            "Y": 328,
+            "Relations": [
+                "c8dd55db-98bc-4331-ad67-0bedff466c8b"
+            ],
+            "Id": "b1cf8d45-1e26-4747-911a-63c2ab1db22b"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play doc1 @p",
+            "X": 390,
+            "Title": "",
+            "Y": 844,
+            "Id": "3f4c8d74-8eff-4baa-8a26-6b38e3acbc79"
+        },
+        {
             "Type": "command",
             "Command": "stopsound @p master customnpcs:songs.kyleb_7by8",
             "X": -705,
@@ -141,6 +136,107 @@
                 "9a9d60f4-e0c9-482b-a021-796181cfb701"
             ],
             "Id": "cdfe9c88-bfb9-4cba-84e2-dcf791cfa0e4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "По работе"
+            },
+            "X": 454,
+            "Title": "",
+            "Y": -39,
+            "Relations": [
+                "001ef38c-a73b-46ee-bfcb-3e00eb5ac2ec"
+            ],
+            "Id": "3d4789ff-3278-47bb-9d52-2b98647372ae"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "\\n\\n ИСТОРИЯ БОЛЕЗНИ \\n\\n
+
+[lИмя:[r Шон
+[lФамилия:[r Лейквуд
+
+[lВозраст пациента:[r 35 лет
+
+
+[lКлинический диагноз:[r 
+
+a) основное заболевание: Ревматическая болезнь сердца. Оперированный митральный порок сердца, недостаточность митрального клапана 1 степени. Умеренная недостаточность клапана II ст. Артериальная гипертония
+б) Показания: срочное хирургическое вмешательство по замене сердечного клапана"
+            },
+            "X": 305,
+            "Title": "",
+            "Y": 506,
+            "Sound": "",
+            "Relations": [
+                "a974ec0b-0179-4151-b0f5-112721cf3379"
+            ],
+            "Id": "c8dd55db-98bc-4331-ad67-0bedff466c8b",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Выключить музыку)"
+            },
+            "X": -702,
+            "Title": "",
+            "Y": 38,
+            "Relations": [
+                "738e1e77-48ba-4cca-93ef-669e9368d9f9"
+            ],
+            "Id": "58a9102a-0e33-443c-95f0-6d44fc45f2af"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Где-то я о нем уже слышала..."
+            },
+            "X": 304,
+            "Title": "",
+            "Y": 701,
+            "Relations": [
+                "3f4c8d74-8eff-4baa-8a26-6b38e3acbc79"
+            ],
+            "Id": "a974ec0b-0179-4151-b0f5-112721cf3379"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Открыть свой плейлист)"
+            },
+            "X": -512,
+            "Title": "",
+            "Y": -126,
+            "Relations": [
+                "c8cd3380-c45c-47e1-87d7-87cb9f0e6ae6"
+            ],
+            "Id": "3acff007-9766-4211-b529-4f1d6fb4ab0b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы открыли раздел работы"
+            },
+            "X": 456,
+            "Title": "",
+            "Y": 140,
+            "Sound": "",
+            "Relations": [
+                "b1cf8d45-1e26-4747-911a-63c2ab1db22b"
+            ],
+            "Id": "001ef38c-a73b-46ee-bfcb-3e00eb5ac2ec",
+            "Marker": ""
         }
     ]
 }

@@ -1,0 +1,138 @@
+{
+    "Closable": 1b,
+    "Main": "5e55b5f2-3c68-4991-8143-056bf0a0f6fd",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 236,
+            "Title": "",
+            "Y": 430,
+            "Id": "27dd01d9-7712-49cd-8800-0afd54529786"
+        },
+        {
+            "Type": "command",
+            "Command": "setblock 623 19 398 minecraft:redstone_block",
+            "X": 526,
+            "Title": "",
+            "Y": 156,
+            "Id": "ad8ff1fd-996b-4253-b31e-0ef644175f01"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так-то лучше, теперь можно и поработать"
+            },
+            "X": 236,
+            "Title": "",
+            "Y": 268,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/hannah_doctor.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "27dd01d9-7712-49cd-8800-0afd54529786"
+            ],
+            "Id": "51d2ed25-2c49-4535-9b94-d97ddc47b303",
+            "Marker": "changeuni"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы открыли шкаф"
+            },
+            "X": 92,
+            "Title": "",
+            "Y": -60,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/hannah_casual.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "8768e6da-3a2f-4188-9542-df43adee1683"
+            ],
+            "Id": "12e00f9a-90c1-421a-bc35-e7efedb39ebf",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Переодеться в рабочую форму)"
+            },
+            "X": 236,
+            "Title": "",
+            "Y": 100,
+            "Relations": [
+                "51d2ed25-2c49-4535-9b94-d97ddc47b303",
+                "ad8ff1fd-996b-4253-b31e-0ef644175f01"
+            ],
+            "Id": "8768e6da-3a2f-4188-9542-df43adee1683"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "meduniform",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 90,
+            "Title": "",
+            "Y": -204,
+            "Relations": [
+                "12e00f9a-90c1-421a-bc35-e7efedb39ebf"
+            ],
+            "Id": "5e55b5f2-3c68-4991-8143-056bf0a0f6fd"
+        }
+    ]
+}

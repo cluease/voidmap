@@ -36,6 +36,14 @@
         },
         {
             "Type": "command",
+            "Command": "mp quest accept @p todo",
+            "X": 272,
+            "Title": "",
+            "Y": 1918,
+            "Id": "57464487-14d9-4f7c-b235-0d4ab1e9dbb0"
+        },
+        {
+            "Type": "command",
             "Command": "effect @p blindness 10 10 true",
             "X": 372,
             "Title": "",
@@ -95,7 +103,7 @@
         {
             "Type": "command",
             "Command": "/tellraw @p [\"\",{\"text\":\"\\u0414\\u0430\\u0442\\u0430:\",\"bold\":true,\"color\":\"green\"},{\"text\":\" \\u041f\\u0430\\u0440\\u0443 \\u043d\\u0435\\u0434\\u0435\\u043b\\u044c \\u0441\\u043f\\u0443\\u0441\\u0442\\u044f\"}]",
-            "X": 17,
+            "X": 24,
             "Title": "Дата",
             "Y": 1925,
             "Id": "6790076c-ea98-4d21-96cc-b7fb2b087f34"
@@ -195,7 +203,8 @@
             "Y": 1761,
             "Relations": [
                 "6790076c-ea98-4d21-96cc-b7fb2b087f34",
-                "96744268-db3b-4241-8924-9a9f245efc91"
+                "96744268-db3b-4241-8924-9a9f245efc91",
+                "57464487-14d9-4f7c-b235-0d4ab1e9dbb0"
             ],
             "Id": "13e6b084-a117-4b90-99c7-a8181fa8e8eb"
         },

@@ -55,7 +55,7 @@
             "Sound": "",
             "Relations": [
                 "ec856219-fb2e-4028-a50f-fb140a799b56",
-                "4d551502-5cfe-48b1-9d50-c542d122f53d"
+                "be1b0c91-e262-4154-9f5b-cf09ef71b113"
             ],
             "Id": "c95f03c0-5100-4f70-a430-9ace2847a185",
             "Marker": ""
@@ -83,7 +83,7 @@
             "Id": "d650d666-0365-4d7f-b55f-ca5bf7b0db50"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -100,7 +100,33 @@
                 "d650d666-0365-4d7f-b55f-ca5bf7b0db50"
             ],
             "Id": "6eab19ac-ff5e-4d14-80f7-ab94fd160431",
-            "Marker": ""
+            "Marker": "todo1"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "gowork",
+                            "Quest": 2,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -150,
+            "Title": "",
+            "Y": -62,
+            "Relations": [
+                "4d551502-5cfe-48b1-9d50-c542d122f53d"
+            ],
+            "Id": "be1b0c91-e262-4154-9f5b-cf09ef71b113"
         },
         {
             "Type": "reply",

@@ -1,0 +1,56 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Type": "command",
+                "Command": "mp quest accept @p meduniform",
+                "Frequency": 1
+            },
+            {
+                "Type": "command",
+                "Command": "/clear @p variedcommodities:heart",
+                "Frequency": 1
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Спуститесь на первый этаж и отправьтесь на работу",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 3.0d,
+                            "Id": "wakeuphannah",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Работа не ждет",
+    "Story": "",
+    "Cancelable": 0b
+}

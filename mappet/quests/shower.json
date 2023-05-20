@@ -23,7 +23,7 @@
     "Objectives": [
         {
             "Type": "state",
-            "Message": "",
+            "Message": "Принять душ",
             "Expression": {
                 "Condition": {
                     "Blocks": [
@@ -45,7 +45,7 @@
             "Result": 0b
         }
     ],
-    "Title": "Принять душ",
+    "Title": "Водные процедуры",
     "Story": "",
     "Cancelable": 0b
 }

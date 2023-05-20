@@ -1,0 +1,438 @@
+{
+    "States": {
+        "1": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Pose": "sleeping",
+                "Animation": {
+                    "Animates": 1b
+                },
+                "Skin": "b.a:alex/skins/patient_1.png",
+                "CustomPose": {
+                    "Size": [
+                        0.6f,
+                        0.4f,
+                        0.2f
+                    ],
+                    "Poses": {
+                        "right_arm": {
+                            "P": [
+                                -6.0f,
+                                -2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                16.0f,
+                                -10.0f,
+                                -20.0f
+                            ]
+                        },
+                        "left_leg": {
+                            "P": [
+                                2.0f,
+                                -12.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                3.0f,
+                                -1.0f,
+                                9.0f
+                            ]
+                        },
+                        "right_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        },
+                        "outer": {
+                            "P": [
+                                0.0f,
+                                4.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "body": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ]
+                        },
+                        "bodywear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "head": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                30.0f,
+                                13.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_arm": {
+                            "P": [
+                                6.0f,
+                                -2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                5.0f,
+                                -29.0f,
+                                27.0f
+                            ]
+                        },
+                        "right_leg": {
+                            "P": [
+                                -2.0f,
+                                -12.0f,
+                                0.0f
+                            ]
+                        },
+                        "right_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "anchor": {
+                            "P": [
+                                0.0f,
+                                2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -90.0f,
+                                -180.0f,
+                                0.0f
+                            ],
+                            "S": [
+                                0.75f,
+                                0.75f,
+                                0.75f
+                            ],
+                            "C": 16777215
+                        },
+                        "left_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        }
+                    }
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.fred"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "patient1",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "friendly",
+            "Speed": 0.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "2": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Pose": "sleeping",
+                "Animation": {
+                    "Animates": 1b
+                },
+                "Skin": "b.a:alex/skins/patient_2.png",
+                "CustomPose": {
+                    "Size": [
+                        0.6f,
+                        0.4f,
+                        0.2f
+                    ],
+                    "Poses": {
+                        "right_arm": {
+                            "P": [
+                                -6.0f,
+                                -2.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_leg": {
+                            "P": [
+                                2.0f,
+                                -12.0f,
+                                0.0f
+                            ]
+                        },
+                        "right_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        },
+                        "outer": {
+                            "P": [
+                                0.0f,
+                                4.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "body": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ]
+                        },
+                        "bodywear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "head": {
+                            "P": [
+                                0.0f,
+                                8.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                30.0f,
+                                -25.0f,
+                                0.0f
+                            ]
+                        },
+                        "left_arm": {
+                            "P": [
+                                6.0f,
+                                -2.0f,
+                                0.0f
+                            ]
+                        },
+                        "right_leg": {
+                            "P": [
+                                -2.0f,
+                                -12.0f,
+                                0.0f
+                            ]
+                        },
+                        "right_legwear": {
+                            "P": [
+                                0.0f,
+                                -6.0f,
+                                0.0f
+                            ]
+                        },
+                        "anchor": {
+                            "P": [
+                                0.0f,
+                                2.0f,
+                                0.0f
+                            ],
+                            "R": [
+                                -90.0f,
+                                -180.0f,
+                                0.0f
+                            ],
+                            "C": 16777215
+                        },
+                        "left_armwear": {
+                            "P": [
+                                0.0f,
+                                -4.0f,
+                                0.0f
+                            ]
+                        }
+                    }
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.fred"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "patient2",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "friendly",
+            "Speed": 0.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}
